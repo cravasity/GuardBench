@@ -1,0 +1,68 @@
+{
+  "wildguardtest": {
+    "repo": "iagoalves/wildguardmix_eval",
+    "file": "data/test-00000-of-00001.parquet",
+    "revision": null,
+    "official": false
+  },
+  "xstest_response/response_harmfulness": {
+    "repo": "heegyu/xstest-response-ko",
+    "file": "data/response_harmfulness-00000-of-00001.parquet",
+    "revision": null,
+    "official": false
+  },
+  "xstest_response/response_refusal": {
+    "repo": "heegyu/xstest-response-ko",
+    "file": "data/response_refusal-00000-of-00001.parquet",
+    "revision": null,
+    "official": false
+  },
+  "toxicchat": {
+    "repo": "lmsys/toxic-chat",
+    "file": "data/0124/toxic-chat_annotation_test.csv",
+    "revision": null,
+    "official": true
+  },
+  "openai_mod": {
+    "repo": "allenai/safety-eval(github)",
+    "file": "openai_moderation_evaluation_dataset.jsonl",
+    "revision": null,
+    "official": true
+  },
+  "aegis_v1": {
+    "repo": "nvidia/Aegis-AI-Content-Safety-Dataset-1.0",
+    "file": "...test_release_0418_v1.parquet",
+    "revision": null,
+    "official": true
+  },
+  "simplesafetytests": {
+    "repo": "Bertievidgen/SimpleSafetyTests",
+    "file": "sst_test_cases.csv",
+    "revision": null,
+    "official": true
+  },
+  "harmbench": {
+    "repo": "allenai/safety-eval(github)",
+    "file": "harmbench_behaviors_text_test.csv + val_set.json",
+    "revision": null,
+    "official": true
+  },
+  "beavertails": {
+    "repo": "PKU-Alignment/BeaverTails",
+    "file": "round0/30k/test.jsonl.gz",
+    "revision": null,
+    "official": true
+  },
+  "saferlhf": {
+    "repo": "PKU-Alignment/PKU-SafeRLHF",
+    "file": "round0/test.jsonl.xz",
+    "revision": "v0",
+    "official": true
+  },
+  "aegis_v2": {
+    "repo": "nvidia/Aegis-AI-Content-Safety-Dataset-2.0",
+    "file": "test.json",
+    "revision": null,
+    "official": true
+  }
+}

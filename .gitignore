@@ -1,0 +1,27 @@
+# Local datasets and inference archives are not redistributed with the code.
+/data/*
+!/data/provenance.json
+/outputs/
+/models/
+/logs/*
+!/logs/environment_main.txt
+!/logs/environment_shieldstral.txt
+
+# Environments, downloaded reference repository, and runtime caches.
+/.venv*/
+/runtime/
+/safety-eval/
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+.pytest_cache/
+.DS_Store
+
+# Credentials must never enter version control.
+.env
+.env.*
+.gh*/
+hosts.yml
+*.pem
+*.key
