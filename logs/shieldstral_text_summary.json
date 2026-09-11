@@ -1,0 +1,10 @@
+{
+ "shieldstral-3b": {
+  "rc": -15,
+  "secs": 179.7,
+  "gpu": "0",
+  "log": "/raid/MLP/hgkim/guardbench/logs/shieldstral_text_shieldstral-3b.log",
+  "tail": "TypeError: Unexpected keyword argument 'truncate_prompt_tokens'",
+  "validation": null
+ }
+}

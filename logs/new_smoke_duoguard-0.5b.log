@@ -1,0 +1,18 @@
+/raid/MLP/hgkim/guardbench/.venv/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files:  20%|██        | 1/5 [00:00<00:02,  1.49it/s]Fetching 5 files:  80%|████████  | 4/5 [00:00<00:00,  4.98it/s]Fetching 5 files: 100%|██████████| 5/5 [00:00<00:00,  5.29it/s]
+`torch_dtype` is deprecated! Use `dtype` instead!
+CLASSIFIED 14/24
+CLASSIFIED 24/24
+WROTE duoguard-0.5b__wildguardtest__prompt_harm.json  n=2  f1=0.6667  parse_err=0.0
+WROTE duoguard-0.5b__toxicchat__prompt_harm.json  n=2  f1=0.0  parse_err=0.0
+WROTE duoguard-0.5b__openai_mod__prompt_harm.json  n=2  f1=1.0  parse_err=0.0
+WROTE duoguard-0.5b__aegis_v1__prompt_harm.json  n=2  f1=0.0  parse_err=0.0
+WROTE duoguard-0.5b__simplesafetytests__prompt_harm.json  n=2  f1=1.0  parse_err=0.0
+WROTE duoguard-0.5b__harmbench__prompt_harm.json  n=2  f1=0.6667  parse_err=0.0
+WROTE duoguard-0.5b__aegis_v2__prompt_harm.json  n=2  f1=1.0  parse_err=0.0
+WROTE duoguard-0.5b__wildguardtest__response_harm.json  n=2  f1=0.0  parse_err=0.0
+WROTE duoguard-0.5b__harmbench__response_harm.json  n=2  f1=0.0  parse_err=0.0
+WROTE duoguard-0.5b__beavertails__response_harm.json  n=2  f1=1.0  parse_err=0.0
+WROTE duoguard-0.5b__saferlhf__response_harm.json  n=2  f1=0.0  parse_err=0.0
+WROTE duoguard-0.5b__xstest_response__response_harm.json  n=2  f1=0.0  parse_err=0.0

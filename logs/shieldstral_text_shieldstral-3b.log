@@ -1,0 +1,16 @@
+(EngineCore pid=3529873) Loading safetensors checkpoint shards:   0% Completed | 0/1 [00:00<?, ?it/s]
+(EngineCore pid=3529873) Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:01<00:00,  1.01s/it]
+(EngineCore pid=3529873) Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:01<00:00,  1.01s/it]
+(EngineCore pid=3529873) 
+(EngineCore pid=3529873) 2026-09-09 17:22:00,813 - INFO - autotuner.py:651 - flashinfer.jit: [Autotuner]: Autotuning process starts ...
+(EngineCore pid=3529873) 2026-09-09 17:22:00,830 - INFO - autotuner.py:674 - flashinfer.jit: [Autotuner]: Autotuning process ends
+(EngineCore pid=3529873) Capturing CUDA graphs (PIECEWISE):   0%|          | 0/51 [00:00<?, ?it/s]Capturing CUDA graphs (PIECEWISE):  10%|▉         | 5/51 [00:00<00:01, 41.64it/s]Capturing CUDA graphs (PIECEWISE):  20%|█▉        | 10/51 [00:00<00:00, 41.51it/s]Capturing CUDA graphs (PIECEWISE):  29%|██▉       | 15/51 [00:00<00:00, 40.94it/s]Capturing CUDA graphs (PIECEWISE):  39%|███▉      | 20/51 [00:00<00:00, 41.44it/s]Capturing CUDA graphs (PIECEWISE):  49%|████▉     | 25/51 [00:00<00:00, 38.25it/s]Capturing CUDA graphs (PIECEWISE):  57%|█████▋    | 29/51 [00:00<00:00, 37.01it/s]Capturing CUDA graphs (PIECEWISE):  65%|██████▍   | 33/51 [00:00<00:00, 36.55it/s]Capturing CUDA graphs (PIECEWISE):  73%|███████▎  | 37/51 [00:00<00:00, 36.53it/s]Capturing CUDA graphs (PIECEWISE):  80%|████████  | 41/51 [00:01<00:00, 35.61it/s]Capturing CUDA graphs (PIECEWISE):  88%|████████▊ | 45/51 [00:01<00:00, 36.01it/s]Capturing CUDA graphs (PIECEWISE):  96%|█████████▌| 49/51 [00:01<00:00, 36.71it/s]Capturing CUDA graphs (PIECEWISE): 100%|██████████| 51/51 [00:01<00:00, 37.84it/s]
+(EngineCore pid=3529873) Capturing CUDA graphs (FULL):   0%|          | 0/51 [00:00<?, ?it/s]Capturing CUDA graphs (FULL):  10%|▉         | 5/51 [00:00<00:01, 44.72it/s]Capturing CUDA graphs (FULL):  20%|█▉        | 10/51 [00:00<00:00, 47.63it/s]Capturing CUDA graphs (FULL):  31%|███▏      | 16/51 [00:00<00:00, 49.46it/s]Capturing CUDA graphs (FULL):  43%|████▎     | 22/51 [00:00<00:00, 50.04it/s]Capturing CUDA graphs (FULL):  55%|█████▍    | 28/51 [00:00<00:00, 50.51it/s]Capturing CUDA graphs (FULL):  67%|██████▋   | 34/51 [00:00<00:00, 50.42it/s]Capturing CUDA graphs (FULL):  78%|███████▊  | 40/51 [00:00<00:00, 51.21it/s]Capturing CUDA graphs (FULL):  90%|█████████ | 46/51 [00:00<00:00, 52.51it/s]Capturing CUDA graphs (FULL): 100%|██████████| 51/51 [00:00<00:00, 51.37it/s]
+Traceback (most recent call last):
+  File "/raid/MLP/hgkim/guardbench/scripts/runner.py", line 208, in <module>
+    for p,n,f1,per in run_model(a.model, a.limit, a.benchmarks, a.outdir, a.gpu_mem, a.tp, a.max_len):
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/scripts/runner.py", line 138, in run_model
+    sp = SamplingParams(temperature=0.0, max_tokens=ad.max_tokens, logprobs=20,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Unexpected keyword argument 'truncate_prompt_tokens'

@@ -1,0 +1,85 @@
+{
+ "duoguard-0.5b": {
+  "rc": 1,
+  "secs": 4.2,
+  "gpu": "0",
+  "log": "/raid/MLP/hgkim/guardbench/logs/encoders_smoke_duoguard-0.5b.log",
+  "tail": "TypeError: expected str, bytes or os.PathLike object, not NoneType",
+  "validation": null
+ },
+ "librai-action": {
+  "rc": 0,
+  "secs": 7.5,
+  "gpu": "3",
+  "log": "/raid/MLP/hgkim/guardbench/logs/encoders_smoke_librai-action.log",
+  "tail": "WROTE librai-action__wildguardtest__response_refusal.json  n=2  f1=0.0  parse_err=0.0 | WROTE librai-action__xstest_response__response_refusal.json  n=2  f1=1.0  parse_err=0.0",
+  "validation": {
+   "ok": true,
+   "n_items": 4,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "librai-harmful": {
+  "rc": 0,
+  "secs": 7.8,
+  "gpu": "2",
+  "log": "/raid/MLP/hgkim/guardbench/logs/encoders_smoke_librai-harmful.log",
+  "tail": "WROTE librai-harmful__wildguardtest__response_harm.json  n=2  f1=1.0  parse_err=0.0 | WROTE librai-harmful__harmbench__response_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE librai-harmful__beavertail",
+  "validation": {
+   "ok": true,
+   "n_items": 10,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "harmaug-guard": {
+  "rc": 0,
+  "secs": 8.0,
+  "gpu": "1",
+  "log": "/raid/MLP/hgkim/guardbench/logs/encoders_smoke_harmaug-guard.log",
+  "tail": "WROTE harmaug-guard__wildguardtest__prompt_harm.json  n=2  f1=0.6667  parse_err=0.0 | WROTE harmaug-guard__toxicchat__prompt_harm.json  n=2  f1=1.0  parse_err=0.0 | WROTE harmaug-guard__openai_mod__pr",
+  "validation": {
+   "ok": true,
+   "n_items": 24,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "granite-hap-125m": {
+  "rc": 0,
+  "secs": 6.3,
+  "gpu": "0",
+  "log": "/raid/MLP/hgkim/guardbench/logs/encoders_smoke_granite-hap-125m.log",
+  "tail": "WROTE granite-hap-125m__wildguardtest__prompt_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE granite-hap-125m__toxicchat__prompt_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE granite-hap-125m__openai_m",
+  "validation": {
+   "ok": true,
+   "n_items": 24,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "toxic-bert": {
+  "rc": 0,
+  "secs": 6.1,
+  "gpu": "3",
+  "log": "/raid/MLP/hgkim/guardbench/logs/encoders_smoke_toxic-bert.log",
+  "tail": "WROTE toxic-bert__wildguardtest__prompt_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE toxic-bert__toxicchat__prompt_harm.json  n=2  f1=1.0  parse_err=0.0 | WROTE toxic-bert__openai_mod__prompt_harm.js",
+  "validation": {
+   "ok": true,
+   "n_items": 24,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ }
+}

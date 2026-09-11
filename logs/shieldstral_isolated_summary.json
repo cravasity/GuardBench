@@ -1,0 +1,10 @@
+{
+ "shieldstral-3b": {
+  "rc": 1,
+  "secs": 26.7,
+  "gpu": "0",
+  "log": "/raid/MLP/hgkim/guardbench/logs/shieldstral_isolated_shieldstral-3b.log",
+  "tail": "ValueError: Failed to apply PixtralProcessor on data={'text': '[IMG]'} with kwargs={'truncation': False, 'return_tensors': 'pt'}",
+  "validation": null
+ }
+}

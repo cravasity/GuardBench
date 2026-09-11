@@ -1,0 +1,412 @@
+[
+  {
+    "name": "WildGuardTest",
+    "repo": "allenai/wildguardmix",
+    "exists": true,
+    "gated": "auto",
+    "created_at": "2024-06-15",
+    "downloads": 12995,
+    "likes": 92,
+    "configs": "ERR:DatasetNotFoundError",
+    "license": "odc-by"
+  },
+  {
+    "name": "WildGuardTest-alt",
+    "repo": "allenai/wildguardmix",
+    "exists": true,
+    "gated": "auto",
+    "created_at": "2024-06-15",
+    "downloads": 12995,
+    "likes": 92,
+    "configs": "ERR:DatasetNotFoundError",
+    "license": "odc-by"
+  },
+  {
+    "name": "ToxicChat",
+    "repo": "lmsys/toxic-chat",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2023-10-26",
+    "downloads": 10046,
+    "likes": 201,
+    "configs": [
+      "toxicchat0124",
+      "toxicchat1123"
+    ],
+    "license": "cc-by-nc-4.0"
+  },
+  {
+    "name": "OpenAIModeration",
+    "repo": "mmathys/openai-moderation-api-evaluation",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2023-08-28",
+    "downloads": 3766,
+    "likes": 38,
+    "configs": [
+      "default"
+    ],
+    "license": "mit"
+  },
+  {
+    "name": "Aegis1.0",
+    "repo": "nvidia/Aegis-AI-Content-Safety-Dataset-1.0",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2024-04-17",
+    "downloads": 3287,
+    "likes": 61,
+    "configs": [
+      "default"
+    ],
+    "license": "cc-by-4.0"
+  },
+  {
+    "name": "Aegis2.0",
+    "repo": "nvidia/Aegis-AI-Content-Safety-Dataset-2.0",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-01-10",
+    "downloads": 7008,
+    "likes": 109,
+    "configs": [
+      "default"
+    ],
+    "license": "cc-by-4.0"
+  },
+  {
+    "name": "Nemotron-SafetyGuard-v3",
+    "repo": "nvidia/Nemotron-Safety-Guard-Dataset-v3",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-08-21",
+    "downloads": 1382,
+    "likes": 34,
+    "configs": [
+      "default"
+    ],
+    "license": "cc-by-4.0"
+  },
+  {
+    "name": "SimpleSafetyTests",
+    "repo": "Bertievidgen/SimpleSafetyTests",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2024-02-07",
+    "downloads": 2975,
+    "likes": 12,
+    "configs": [
+      "default"
+    ],
+    "license": "cc-by-2.0"
+  },
+  {
+    "name": "SimpleSafetyTests-walled",
+    "repo": "walledai/SimpleSafetyTests",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2024-06-03",
+    "downloads": 311,
+    "likes": 3,
+    "configs": [
+      "default"
+    ],
+    "license": "cc-by-2.0"
+  },
+  {
+    "name": "HarmBench-walled",
+    "repo": "walledai/HarmBench",
+    "exists": true,
+    "gated": "auto",
+    "created_at": "2024-07-03",
+    "downloads": 5285,
+    "likes": 54,
+    "configs": "ERR:DatasetNotFoundError",
+    "license": "mit"
+  },
+  {
+    "name": "HarmBench-cais",
+    "repo": "cais/HarmBench",
+    "exists": false,
+    "error": "RepositoryNotFoundError: 404 Client Error. (Request ID: Root=1-6aa0f2bc-54c378aa5c2be95007ec5e5d;90a5cd61"
+  },
+  {
+    "name": "BeaverTails",
+    "repo": "PKU-Alignment/BeaverTails",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2023-06-07",
+    "downloads": 16202,
+    "likes": 113,
+    "configs": [
+      "default"
+    ],
+    "license": "cc-by-nc-4.0"
+  },
+  {
+    "name": "BeaverTails-Eval",
+    "repo": "PKU-Alignment/BeaverTails-Evaluation",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2023-06-14",
+    "downloads": 691,
+    "likes": 15,
+    "configs": [
+      "default"
+    ],
+    "license": "cc-by-nc-4.0"
+  },
+  {
+    "name": "PKU-SafeRLHF",
+    "repo": "PKU-Alignment/PKU-SafeRLHF",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2023-06-14",
+    "downloads": 11877,
+    "likes": 196,
+    "configs": [
+      "default",
+      "alpaca-7b",
+      "alpaca2-7b",
+      "alpaca3-8b"
+    ],
+    "license": "cc-by-nc-4.0"
+  },
+  {
+    "name": "PKU-SafeRLHF-30K",
+    "repo": "PKU-Alignment/PKU-SafeRLHF-30K",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2023-11-20",
+    "downloads": 1695,
+    "likes": 14,
+    "configs": [
+      "default"
+    ],
+    "license": "cc-by-nc-4.0"
+  },
+  {
+    "name": "XSTest-Response",
+    "repo": "allenai/xstest-response",
+    "exists": true,
+    "gated": "auto",
+    "created_at": "2024-06-26",
+    "downloads": 567,
+    "likes": 9,
+    "configs": "ERR:DatasetNotFoundError",
+    "license": "odc-by"
+  },
+  {
+    "name": "XSTest",
+    "repo": "walledai/XSTest",
+    "exists": true,
+    "gated": "auto",
+    "created_at": "2024-07-03",
+    "downloads": 5762,
+    "likes": 26,
+    "configs": "ERR:DatasetNotFoundError",
+    "license": "cc-by-4.0"
+  },
+  {
+    "name": "XSTest-orig",
+    "repo": "Paul/XSTest",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-02-11",
+    "downloads": 4468,
+    "likes": 5,
+    "configs": [
+      "default"
+    ],
+    "license": "cc-by-4.0"
+  },
+  {
+    "name": "SORRY-Bench",
+    "repo": "sorry-bench/sorry-bench-202503",
+    "exists": true,
+    "gated": "auto",
+    "created_at": "2025-02-28",
+    "downloads": 1107,
+    "likes": 23,
+    "configs": "ERR:DatasetNotFoundError",
+    "license": "other"
+  },
+  {
+    "name": "SORRY-Bench-2406",
+    "repo": "sorry-bench/sorry-bench-202406",
+    "exists": true,
+    "gated": "auto",
+    "created_at": "2024-06-12",
+    "downloads": 718,
+    "likes": 22,
+    "configs": "ERR:DatasetNotFoundError",
+    "license": "other"
+  },
+  {
+    "name": "OR-Bench",
+    "repo": "bench-llm/or-bench",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2024-05-09",
+    "downloads": 8186,
+    "likes": 22,
+    "configs": [
+      "or-bench-80k",
+      "or-bench-hard-1k",
+      "or-bench-toxic"
+    ],
+    "license": "cc-by-4.0"
+  },
+  {
+    "name": "StrongREJECT",
+    "repo": "walledai/StrongREJECT",
+    "exists": true,
+    "gated": "auto",
+    "created_at": "2024-07-02",
+    "downloads": 2861,
+    "likes": 23,
+    "configs": "ERR:DatasetNotFoundError",
+    "license": "mit"
+  },
+  {
+    "name": "AdvBench",
+    "repo": "walledai/AdvBench",
+    "exists": true,
+    "gated": "auto",
+    "created_at": "2024-07-02",
+    "downloads": 11161,
+    "likes": 113,
+    "configs": "ERR:DatasetNotFoundError",
+    "license": "mit"
+  },
+  {
+    "name": "DoNotAnswer",
+    "repo": "LibrAI/do-not-answer",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2023-08-28",
+    "downloads": 3940,
+    "likes": 57,
+    "configs": [
+      "default"
+    ],
+    "license": "apache-2.0"
+  },
+  {
+    "name": "SALAD-Data",
+    "repo": "OpenSafetyLab/Salad-Data",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2024-02-26",
+    "downloads": 1408,
+    "likes": 33,
+    "configs": [
+      "base_set",
+      "attack_enhanced_set",
+      "small_attack_subset",
+      "defense_enhanced_set",
+      "mcq_set"
+    ],
+    "license": "apache-2.0"
+  },
+  {
+    "name": "PolyGuardPrompts",
+    "repo": "ToxicityPrompts/PolyGuardPrompts",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-02-18",
+    "downloads": 475,
+    "likes": 5,
+    "configs": [
+      "default"
+    ],
+    "license": "cc-by-4.0"
+  },
+  {
+    "name": "PolyGuardMix",
+    "repo": "ToxicityPrompts/PolyGuardMix",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-02-18",
+    "downloads": 689,
+    "likes": 5,
+    "configs": [
+      "default"
+    ],
+    "license": "cc-by-4.0"
+  },
+  {
+    "name": "ToxiGen",
+    "repo": "toxigen/toxigen-data",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2022-05-01",
+    "downloads": 9034,
+    "likes": 77,
+    "configs": [
+      "annotated",
+      "annotations",
+      "prompts",
+      "train"
+    ],
+    "license": null
+  },
+  {
+    "name": "RealToxicityPrompts",
+    "repo": "allenai/real-toxicity-prompts",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2022-08-17",
+    "downloads": 28796,
+    "likes": 123,
+    "configs": [
+      "default"
+    ],
+    "license": [
+      "apache-2.0"
+    ]
+  },
+  {
+    "name": "JBB-Behaviors",
+    "repo": "JailbreakBench/JBB-Behaviors",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2024-06-12",
+    "downloads": 72213,
+    "likes": 124,
+    "configs": [
+      "behaviors",
+      "judge_comparison"
+    ],
+    "license": "mit"
+  },
+  {
+    "name": "WildJailbreak",
+    "repo": "allenai/wildjailbreak",
+    "exists": true,
+    "gated": "auto",
+    "created_at": "2024-06-18",
+    "downloads": 7191,
+    "likes": 147,
+    "configs": "ERR:DatasetNotFoundError",
+    "license": "odc-by"
+  },
+  {
+    "name": "AIR-Bench",
+    "repo": "stanford-crfm/air-bench-2024",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2024-06-05",
+    "downloads": 8166,
+    "likes": 26,
+    "configs": [
+      "default",
+      "china",
+      "eu_comprehensive",
+      "eu_mandatory",
+      "us",
+      "judge_prompts"
+    ],
+    "license": "cc-by-4.0"
+  }
+]

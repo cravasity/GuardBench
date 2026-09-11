@@ -1,0 +1,37 @@
+{
+ "gptoss-safeguard-20b": {
+  "rc": 0,
+  "secs": 314.2,
+  "gpu": "0",
+  "log": "/raid/MLP/hgkim/guardbench/logs/decision_retry_full_gptoss-safeguard-20b.log",
+  "tail": "WROTE gptoss-safeguard-20b__wildguardtest__prompt_harm.json  n=1699  f1=0.8796  parse_err=0.0 | WROTE gptoss-safeguard-20b__wildguardtest__response_harm.json  n=1709  f1=0.7155  parse_err=0.0 | WROTE ",
+  "validation": {
+   "ok": true,
+   "n_items": 16672,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "missing_call_probabilities": 0,
+   "errors": []
+  }
+ },
+ "guardreasoner-8b": {
+  "rc": 2,
+  "secs": 813.1,
+  "gpu": "2",
+  "log": "/raid/MLP/hgkim/guardbench/logs/decision_retry_full_guardreasoner-8b.log",
+  "tail": "WROTE guardreasoner-8b__wildguardtest__prompt_harm.json  n=1699  f1=0.8961  parse_err=0.0 | WROTE guardreasoner-8b__wildguardtest__response_harm.json  n=1709  f1=0.7776  parse_err=0.0 | WROTE guardrea",
+  "validation": {
+   "ok": false,
+   "n_items": 18841,
+   "n_parse_errors": 8,
+   "missing_probabilities": 0,
+   "unparsed_calls": 8,
+   "missing_call_probabilities": 0,
+   "errors": [
+    "parse failures 8/18841",
+    "unparsed calls: 8"
+   ]
+  }
+ }
+}

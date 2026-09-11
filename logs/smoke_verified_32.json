@@ -1,0 +1,258 @@
+{
+  "llamaguard-2-8b": {
+    "ok": true,
+    "n_items": 24,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "llamaguard-3-1b": {
+    "ok": true,
+    "n_items": 24,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "llamaguard-3-8b": {
+    "ok": true,
+    "n_items": 24,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "llamaguard-4-12b": {
+    "ok": true,
+    "n_items": 24,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "shieldgemma-2b": {
+    "ok": true,
+    "n_items": 24,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "shieldgemma-9b": {
+    "ok": true,
+    "n_items": 24,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "shieldgemma-27b": {
+    "ok": true,
+    "n_items": 24,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "qwen3guard-0.6b": {
+    "ok": true,
+    "n_items": 28,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "qwen3guard-4b": {
+    "ok": true,
+    "n_items": 28,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "qwen3guard-8b": {
+    "ok": true,
+    "n_items": 28,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "granite-3.0-8b": {
+    "ok": true,
+    "n_items": 24,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "granite-3.3-8b": {
+    "ok": true,
+    "n_items": 24,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "granite-4.1-8b": {
+    "ok": true,
+    "n_items": 24,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "nemotron-guard-v3": {
+    "ok": true,
+    "n_items": 24,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "nemotron-3.5-cs": {
+    "ok": true,
+    "n_items": 24,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "gptoss-safeguard-20b": {
+    "ok": true,
+    "n_items": 24,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "shieldstral-3b": {
+    "ok": true,
+    "n_items": 24,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "mdjudge-v0.2-7b": {
+    "ok": true,
+    "n_items": 10,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "harmbench-cls-13b": {
+    "ok": true,
+    "n_items": 10,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "guardreasoner-8b": {
+    "ok": true,
+    "n_items": 28,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "dynaguard-8b": {
+    "ok": true,
+    "n_items": 24,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "polyguard-qwen-7b": {
+    "ok": true,
+    "n_items": 28,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "aprielguard-8b": {
+    "ok": true,
+    "n_items": 24,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "shieldlm-7b": {
+    "ok": true,
+    "n_items": 10,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "sguard-2b": {
+    "ok": true,
+    "n_items": 24,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "kanana-safeguard-8b": {
+    "ok": true,
+    "n_items": 24,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "harmaug-guard": {
+    "ok": true,
+    "n_items": 24,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "duoguard-0.5b": {
+    "ok": true,
+    "n_items": 24,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "librai-harmful": {
+    "ok": true,
+    "n_items": 10,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "librai-action": {
+    "ok": true,
+    "n_items": 4,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "granite-hap-125m": {
+    "ok": true,
+    "n_items": 24,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  },
+  "toxic-bert": {
+    "ok": true,
+    "n_items": 24,
+    "n_parse_errors": 0,
+    "missing_probabilities": 0,
+    "unparsed_calls": 0,
+    "errors": []
+  }
+}

@@ -1,0 +1,78 @@
+{
+ "shieldlm-7b": {
+  "rc": 1,
+  "secs": 8.9,
+  "gpu": "3",
+  "log": "/raid/MLP/hgkim/guardbench/logs/new_smoke_shieldlm-7b.log",
+  "tail": "AttributeError: 'bool' object has no attribute 'all_special_ids'",
+  "validation": null
+ },
+ "shieldstral-3b": {
+  "rc": 1,
+  "secs": 7.1,
+  "gpu": "3",
+  "log": "/raid/MLP/hgkim/guardbench/logs/new_smoke_shieldstral-3b.log",
+  "tail": "KeyError: 'ministral3'",
+  "validation": null
+ },
+ "duoguard-0.5b": {
+  "rc": 0,
+  "secs": 8.4,
+  "gpu": "3",
+  "log": "/raid/MLP/hgkim/guardbench/logs/new_smoke_duoguard-0.5b.log",
+  "tail": "WROTE duoguard-0.5b__wildguardtest__prompt_harm.json  n=2  f1=0.6667  parse_err=0.0 | WROTE duoguard-0.5b__toxicchat__prompt_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE duoguard-0.5b__openai_mod__pr",
+  "validation": {
+   "ok": true,
+   "n_items": 24,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "granite-4.1-8b": {
+  "rc": 0,
+  "secs": 51.0,
+  "gpu": "1",
+  "log": "/raid/MLP/hgkim/guardbench/logs/new_smoke_granite-4.1-8b.log",
+  "tail": "WROTE granite-4.1-8b__wildguardtest__prompt_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE granite-4.1-8b__wildguardtest__response_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE granite-4.1-8b__toxiccha",
+  "validation": {
+   "ok": true,
+   "n_items": 24,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "granite-3.3-8b": {
+  "rc": 0,
+  "secs": 51.3,
+  "gpu": "2",
+  "log": "/raid/MLP/hgkim/guardbench/logs/new_smoke_granite-3.3-8b.log",
+  "tail": "WROTE granite-3.3-8b__wildguardtest__prompt_harm.json  n=2  f1=0.6667  parse_err=0.0 | WROTE granite-3.3-8b__wildguardtest__response_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE granite-3.3-8b__toxic",
+  "validation": {
+   "ok": true,
+   "n_items": 24,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "gptoss-safeguard-20b": {
+  "rc": 0,
+  "secs": 64.1,
+  "gpu": "0",
+  "log": "/raid/MLP/hgkim/guardbench/logs/new_smoke_gptoss-safeguard-20b.log",
+  "tail": "WROTE gptoss-safeguard-20b__wildguardtest__prompt_harm.json  n=2  f1=0.6667  parse_err=0.0 | WROTE gptoss-safeguard-20b__wildguardtest__response_harm.json  n=2  f1=1.0  parse_err=0.0 | WROTE gptoss-sa",
+  "validation": {
+   "ok": true,
+   "n_items": 24,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ }
+}

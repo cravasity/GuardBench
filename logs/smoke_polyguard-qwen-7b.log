@@ -1,0 +1,42 @@
+/raid/MLP/hgkim/guardbench/.venv/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+The argument `trust_remote_code` is to be used with Auto classes. It has no effect here and is ignored.
+`torch_dtype` is deprecated! Use `dtype` instead!
+[1;36m(EngineCore_DP0 pid=3489189)[0;0m W0909 17:08:07.502000 3489189 torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1;36m(EngineCore_DP0 pid=3489189)[0;0m W0909 17:08:07.502000 3489189 torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1;36m(EngineCore_DP0 pid=3489189)[0;0m Loading safetensors checkpoint shards:   0% Completed | 0/7 [00:00<?, ?it/s]
+[1;36m(EngineCore_DP0 pid=3489189)[0;0m Loading safetensors checkpoint shards:  14% Completed | 1/7 [00:00<00:04,  1.36it/s]
+[1;36m(EngineCore_DP0 pid=3489189)[0;0m Loading safetensors checkpoint shards:  29% Completed | 2/7 [00:01<00:04,  1.09it/s]
+[1;36m(EngineCore_DP0 pid=3489189)[0;0m Loading safetensors checkpoint shards:  43% Completed | 3/7 [00:02<00:04,  1.01s/it]
+[1;36m(EngineCore_DP0 pid=3489189)[0;0m Loading safetensors checkpoint shards:  57% Completed | 4/7 [00:03<00:02,  1.15it/s]
+[1;36m(EngineCore_DP0 pid=3489189)[0;0m Loading safetensors checkpoint shards:  71% Completed | 5/7 [00:04<00:01,  1.13it/s]
+[1;36m(EngineCore_DP0 pid=3489189)[0;0m Loading safetensors checkpoint shards:  86% Completed | 6/7 [00:05<00:00,  1.11it/s]
+[1;36m(EngineCore_DP0 pid=3489189)[0;0m Loading safetensors checkpoint shards: 100% Completed | 7/7 [00:06<00:00,  1.06it/s]
+[1;36m(EngineCore_DP0 pid=3489189)[0;0m Loading safetensors checkpoint shards: 100% Completed | 7/7 [00:06<00:00,  1.09it/s]
+[1;36m(EngineCore_DP0 pid=3489189)[0;0m 
+[1;36m(EngineCore_DP0 pid=3489189)[0;0m 2026-09-09 17:08:36,951 - INFO - autotuner.py:256 - flashinfer.jit: [Autotuner]: Autotuning process starts ...
+[1;36m(EngineCore_DP0 pid=3489189)[0;0m 2026-09-09 17:08:37,316 - INFO - autotuner.py:262 - flashinfer.jit: [Autotuner]: Autotuning process ends
+[1;36m(EngineCore_DP0 pid=3489189)[0;0m Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   0%|          | 0/67 [00:00<?, ?it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   4%|▍         | 3/67 [00:00<00:02, 27.65it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  10%|█         | 7/67 [00:00<00:02, 29.47it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  15%|█▍        | 10/67 [00:00<00:01, 29.46it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  19%|█▉        | 13/67 [00:00<00:01, 29.04it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  25%|██▌       | 17/67 [00:00<00:01, 30.08it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  31%|███▏      | 21/67 [00:00<00:01, 31.11it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  37%|███▋      | 25/67 [00:00<00:01, 31.64it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  43%|████▎     | 29/67 [00:00<00:01, 30.94it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  49%|████▉     | 33/67 [00:01<00:01, 30.66it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  55%|█████▌    | 37/67 [00:01<00:00, 31.22it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  61%|██████    | 41/67 [00:01<00:00, 30.80it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  67%|██████▋   | 45/67 [00:01<00:00, 29.51it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  72%|███████▏  | 48/67 [00:01<00:00, 28.49it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  78%|███████▊  | 52/67 [00:01<00:00, 28.77it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  82%|████████▏ | 55/67 [00:01<00:00, 28.48it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  88%|████████▊ | 59/67 [00:01<00:00, 28.91it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  93%|█████████▎| 62/67 [00:02<00:00, 28.80it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  99%|█████████▊| 66/67 [00:02<00:00, 30.26it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 67/67 [00:02<00:00, 29.75it/s]
+[1;36m(EngineCore_DP0 pid=3489189)[0;0m Capturing CUDA graphs (decode, FULL):   0%|          | 0/67 [00:00<?, ?it/s]Capturing CUDA graphs (decode, FULL):   6%|▌         | 4/67 [00:00<00:01, 33.46it/s]Capturing CUDA graphs (decode, FULL):  12%|█▏        | 8/67 [00:00<00:01, 35.89it/s]Capturing CUDA graphs (decode, FULL):  18%|█▊        | 12/67 [00:00<00:01, 36.97it/s]Capturing CUDA graphs (decode, FULL):  24%|██▍       | 16/67 [00:00<00:01, 37.76it/s]Capturing CUDA graphs (decode, FULL):  31%|███▏      | 21/67 [00:00<00:01, 39.50it/s]Capturing CUDA graphs (decode, FULL):  39%|███▉      | 26/67 [00:00<00:01, 40.77it/s]Capturing CUDA graphs (decode, FULL):  46%|████▋     | 31/67 [00:00<00:00, 42.63it/s]Capturing CUDA graphs (decode, FULL):  54%|█████▎    | 36/67 [00:00<00:00, 43.44it/s]Capturing CUDA graphs (decode, FULL):  61%|██████    | 41/67 [00:00<00:00, 44.03it/s]Capturing CUDA graphs (decode, FULL):  69%|██████▊   | 46/67 [00:01<00:00, 44.64it/s]Capturing CUDA graphs (decode, FULL):  76%|███████▌  | 51/67 [00:01<00:00, 43.62it/s]Capturing CUDA graphs (decode, FULL):  84%|████████▎ | 56/67 [00:01<00:00, 44.04it/s]Capturing CUDA graphs (decode, FULL):  91%|█████████ | 61/67 [00:01<00:00, 45.41it/s]Capturing CUDA graphs (decode, FULL): 100%|██████████| 67/67 [00:01<00:00, 48.27it/s]Capturing CUDA graphs (decode, FULL): 100%|██████████| 67/67 [00:01<00:00, 43.32it/s]
+Adding requests:   0%|          | 0/28 [00:00<?, ?it/s]Adding requests: 100%|██████████| 28/28 [00:00<00:00, 721.96it/s]
+Processed prompts:   0%|          | 0/28 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts:   4%|▎         | 1/28 [00:01<00:42,  1.58s/it, est. speed input: 529.59 toks/s, output: 19.61 toks/s]Processed prompts: 100%|██████████| 28/28 [00:01<00:00,  1.58s/it, est. speed input: 8344.01 toks/s, output: 555.77 toks/s]Processed prompts: 100%|██████████| 28/28 [00:01<00:00, 17.19it/s, est. speed input: 8344.01 toks/s, output: 555.77 toks/s]
+WROTE polyguard-qwen-7b__wildguardtest__prompt_harm.json  n=2  f1=0.6667  parse_err=0.0
+WROTE polyguard-qwen-7b__wildguardtest__response_harm.json  n=2  f1=0.0  parse_err=0.0
+WROTE polyguard-qwen-7b__wildguardtest__response_refusal.json  n=2  f1=0.0  parse_err=0.0
+WROTE polyguard-qwen-7b__toxicchat__prompt_harm.json  n=2  f1=1.0  parse_err=0.0
+WROTE polyguard-qwen-7b__openai_mod__prompt_harm.json  n=2  f1=1.0  parse_err=0.0
+WROTE polyguard-qwen-7b__aegis_v1__prompt_harm.json  n=2  f1=0.0  parse_err=0.0
+WROTE polyguard-qwen-7b__simplesafetytests__prompt_harm.json  n=2  f1=1.0  parse_err=0.0
+WROTE polyguard-qwen-7b__harmbench__prompt_harm.json  n=2  f1=1.0  parse_err=0.0
+WROTE polyguard-qwen-7b__harmbench__response_harm.json  n=2  f1=1.0  parse_err=0.0
+WROTE polyguard-qwen-7b__beavertails__response_harm.json  n=2  f1=1.0  parse_err=0.0
+WROTE polyguard-qwen-7b__saferlhf__response_harm.json  n=2  f1=0.0  parse_err=0.0
+WROTE polyguard-qwen-7b__xstest_response__response_harm.json  n=2  f1=0.0  parse_err=0.0
+WROTE polyguard-qwen-7b__xstest_response__response_refusal.json  n=2  f1=1.0  parse_err=0.0
+WROTE polyguard-qwen-7b__aegis_v2__prompt_harm.json  n=2  f1=1.0  parse_err=0.0

@@ -1,0 +1,30 @@
+{
+ "shieldgemma-2b": {
+  "rc": 1,
+  "secs": 8.9,
+  "gpu": "2",
+  "log": "/raid/MLP/hgkim/guardbench/logs/targeted_shieldgemma-2b.log",
+  "tail": "    For further information visit https://errors.pydantic.dev/2.13/v/value_error"
+ },
+ "sguard-2b": {
+  "rc": 0,
+  "secs": 10.1,
+  "gpu": "3",
+  "log": "/raid/MLP/hgkim/guardbench/logs/targeted_sguard-2b.log",
+  "tail": "WROTE sguard-2b__wildguardtest__prompt_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE sguard-2b__wildguardtest__response_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE sguard-2b__toxicchat__prompt_harm."
+ },
+ "harmbench-cls-13b": {
+  "rc": 0,
+  "secs": 58.2,
+  "gpu": "0",
+  "log": "/raid/MLP/hgkim/guardbench/logs/targeted_harmbench-cls-13b.log",
+  "tail": "WROTE harmbench-cls-13b__wildguardtest__response_harm.json  n=2  f1=0.6667  parse_err=0.0 | WROTE harmbench-cls-13b__harmbench__response_harm.json  n=2  f1=1.0  parse_err=0.0 | WROTE harmbench-cls-13b"
+ },
+ "dynaguard-8b": {
+  "rc": 0,
+  "secs": 64.0,
+  "gpu": "1",
+  "log": "/raid/MLP/hgkim/guardbench/logs/targeted_dynaguard-8b.log",
+  "tail": "WROTE dynaguard-8b__wildguardtest__prompt_harm.json  n=2  f1=0.6667  parse_err=0.0 | WROTE dynaguard-8b__wildguardtest__response_harm.json  n=2  f1=1.0  parse_err=0.0 | WROTE dynaguard-8b__toxicchat__"
+ }
+}

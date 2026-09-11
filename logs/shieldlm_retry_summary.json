@@ -1,0 +1,17 @@
+{
+ "shieldlm-7b": {
+  "rc": 0,
+  "secs": 50.4,
+  "gpu": "0",
+  "log": "/raid/MLP/hgkim/guardbench/logs/shieldlm_retry_shieldlm-7b.log",
+  "tail": "WROTE shieldlm-7b__wildguardtest__response_harm.json  n=2  f1=1.0  parse_err=0.0 | WROTE shieldlm-7b__harmbench__response_harm.json  n=2  f1=1.0  parse_err=0.0 | WROTE shieldlm-7b__beavertails__respon",
+  "validation": {
+   "ok": true,
+   "n_items": 10,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ }
+}

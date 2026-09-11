@@ -1,0 +1,31 @@
+/raid/MLP/hgkim/guardbench/.venv/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Traceback (most recent call last):
+  File "/raid/MLP/hgkim/guardbench/scripts/runner.py", line 195, in <module>
+    for p,n,f1,per in run_model(a.model, a.limit, a.benchmarks, a.outdir, a.gpu_mem, a.tp, a.max_len):
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/scripts/runner.py", line 102, in run_model
+    return run_classifier(mkey, limit, benchmarks, outdir, max_len)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/scripts/hf_cls.py", line 142, in run_classifier
+    return run_encoder(mkey, limit, benchmarks, outdir, max_len)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/scripts/hf_cls.py", line 51, in run_encoder
+    tok = AutoTokenizer.from_pretrained(snapshot)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/.venv/lib/python3.12/site-packages/transformers/models/auto/tokenization_auto.py", line 1159, in from_pretrained
+    return tokenizer_class_fast.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/.venv/lib/python3.12/site-packages/transformers/tokenization_utils_base.py", line 2097, in from_pretrained
+    return cls._from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/.venv/lib/python3.12/site-packages/transformers/tokenization_utils_base.py", line 2135, in _from_pretrained
+    slow_tokenizer = (cls.slow_tokenizer_class)._from_pretrained(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/.venv/lib/python3.12/site-packages/transformers/tokenization_utils_base.py", line 2343, in _from_pretrained
+    tokenizer = cls(*init_inputs, **init_kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/.venv/lib/python3.12/site-packages/transformers/models/qwen2/tokenization_qwen2.py", line 172, in __init__
+    with open(vocab_file, encoding="utf-8") as vocab_handle:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected str, bytes or os.PathLike object, not NoneType

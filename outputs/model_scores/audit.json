@@ -1,0 +1,32 @@
+{
+  "source": "/raid/MLP/hgkim/guardbench/outputs/irt_long.parquet",
+  "source_sha256": "e626c6f0633b2737cfaf3de53201ee8fbae016521bb2ebe7e60acada19bd0c7b",
+  "gold_source": "/raid/MLP/hgkim/guardbench/data/eval_items.jsonl",
+  "gold_sha256": "30c5921e67ac60b67578523958aac3240d11b2a80716a6cee335b436511216e2",
+  "model_count": 32,
+  "benchmark_count": 10,
+  "task_count": 3,
+  "score_rows": 356,
+  "input_rows": 494270,
+  "parsed_rows": 494251,
+  "parse_failures": 19,
+  "primary_view": "parsed_only",
+  "score_scale": "0..1",
+  "prediction_reconstruction": "gold if correct=1 else 1-gold; parsed rows only",
+  "checks": [
+    "canonical source hash",
+    "unique model-item pairs",
+    "many-to-one gold join",
+    "accuracy matches parquet mean",
+    "HarmAug reference confusion matrix/F1/AUROC",
+    "AUROC ties",
+    "single-class undefined metrics",
+    "CSV read-back"
+  ],
+  "output_sha256": {
+    "scores_by_model_benchmark.csv": "e60271d36d60144178ddadf451a466c500f6d2e6c307217938b218bb6f74fcbd",
+    "scores_conservative.csv": "137cfa9bcab2a81833ec6354b01a4f0d093680c178d491070510f0a212b7d9a0",
+    "f1_by_model_benchmark.csv": "5c069e8c6d836e1471b8543bb59522e62b870e99c7e2d3a6f7246ac2c668a235",
+    "README.md": "7400ec6464bd2cf21d0be61e935eaacb48486446f336e8bec2aa7655477cf295"
+  }
+}

@@ -1,0 +1,20 @@
+{
+ "nemotron-3.5-cs": {
+  "rc": 2,
+  "secs": 42.2,
+  "gpu": "0",
+  "log": "/raid/MLP/hgkim/guardbench/logs/nemotron_retry_nemotron-3.5-cs.log",
+  "tail": "WROTE nemotron-3.5-cs__wildguardtest__prompt_harm.json  n=2  f1=0.6667  parse_err=0.0 | WROTE nemotron-3.5-cs__wildguardtest__response_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE nemotron-3.5-cs__wi",
+  "validation": {
+   "ok": false,
+   "n_items": 28,
+   "n_parse_errors": 3,
+   "missing_probabilities": 0,
+   "unparsed_calls": 3,
+   "errors": [
+    "parse failures 3/28",
+    "unparsed calls: 3"
+   ]
+  }
+ }
+}

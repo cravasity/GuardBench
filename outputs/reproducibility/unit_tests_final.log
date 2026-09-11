@@ -1,0 +1,32 @@
+test_controversial_first_token_excludes_content (test_guardbench.GuardBenchTests.test_controversial_first_token_excludes_content) ... ok
+test_duplicate_decoded_tokens_are_retained (test_guardbench.GuardBenchTests.test_duplicate_decoded_tokens_are_retained) ... ok
+test_dynaguard_rejects_labels_in_reasoning (test_guardbench.GuardBenchTests.test_dynaguard_rejects_labels_in_reasoning) ... ok
+test_gptoss_final_channel_variants (test_guardbench.GuardBenchTests.test_gptoss_final_channel_variants) ... ok
+test_guardreasoner_probability_uses_final_field (test_guardbench.GuardBenchTests.test_guardreasoner_probability_uses_final_field) ... ok
+test_guardreasoner_uses_final_field (test_guardbench.GuardBenchTests.test_guardreasoner_uses_final_field) ... ok
+test_missing_anchor_does_not_score_reasoning (test_guardbench.GuardBenchTests.test_missing_anchor_does_not_score_reasoning) ... ok
+test_parquet_keeps_failed_parse_missing (test_guardbench.GuardBenchTests.test_parquet_keeps_failed_parse_missing) ... ok
+test_parquet_refuses_duplicate_canonical_items (test_guardbench.GuardBenchTests.test_parquet_refuses_duplicate_canonical_items) ... ok
+test_parquet_refuses_duplicate_model_keys (test_guardbench.GuardBenchTests.test_parquet_refuses_duplicate_model_keys) ... ok
+test_parquet_refuses_incomplete_archive (test_guardbench.GuardBenchTests.test_parquet_refuses_incomplete_archive) ... ok
+test_parse_failures_have_both_metric_views (test_guardbench.GuardBenchTests.test_parse_failures_have_both_metric_views) ... ok
+test_partial_shield_negative_is_not_a_valid_negative (test_guardbench.GuardBenchTests.test_partial_shield_negative_is_not_a_valid_negative) ... /raid/MLP/hgkim/guardbench/scripts/adapters.py:67: ResourceWarning: unclosed file <_io.TextIOWrapper name='/raid/MLP/hgkim/guardbench/templates/shieldgemma_policies.json' mode='r' encoding='UTF-8'>
+  self.pol = json.load(open(f"{TPL}/shieldgemma_policies.json"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_qwen_preserves_controversial (test_guardbench.GuardBenchTests.test_qwen_preserves_controversial) ... ok
+test_unaligned_anchor_does_not_fall_back_to_reasoning (test_guardbench.GuardBenchTests.test_unaligned_anchor_does_not_fall_back_to_reasoning) ... ok
+test_waits_for_all_reserved_gpus (test_guardbench.GuardBenchTests.test_waits_for_all_reserved_gpus) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.210s
+
+OK
+{
+  "parquet": "/raid/MLP/hgkim/guardbench/runtime/tmp8fkqwi7b/irt.parquet",
+  "rows": 3,
+  "models": 1,
+  "archive_files": 1,
+  "parse_failures": 1,
+  "missing_probabilities": 1
+}

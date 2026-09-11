@@ -1,0 +1,18 @@
+SGuard category token pairs: [('Crime', [49159, 49160], 'Crime: safe\nCrime: unsafe\n'), ('Manipulation', [49161, 49162], 'Manipulation: safe\nManipulation: unsafe\n'), ('Privacy', [49163, 49164], 'Privacy: safe\nPrivacy: unsafe\n'), ('Sexual', [49165, 49166], 'Sexual: safe\nSexual: unsafe\n'), ('Violence', [49167, 49168], 'Violence: safeViolence: unsafe')]
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 108.78it/s]
+CLASSIFIED 8/24
+CLASSIFIED 16/24
+CLASSIFIED 24/24
+WROTE sguard-2b__wildguardtest__prompt_harm.json  n=2  f1=0.0  parse_err=0.0
+WROTE sguard-2b__wildguardtest__response_harm.json  n=2  f1=0.0  parse_err=0.0
+WROTE sguard-2b__toxicchat__prompt_harm.json  n=2  f1=1.0  parse_err=0.0
+WROTE sguard-2b__openai_mod__prompt_harm.json  n=2  f1=1.0  parse_err=0.0
+WROTE sguard-2b__aegis_v1__prompt_harm.json  n=2  f1=0.0  parse_err=0.0
+WROTE sguard-2b__simplesafetytests__prompt_harm.json  n=2  f1=1.0  parse_err=0.0
+WROTE sguard-2b__harmbench__prompt_harm.json  n=2  f1=1.0  parse_err=0.0
+WROTE sguard-2b__harmbench__response_harm.json  n=2  f1=0.6667  parse_err=0.0
+WROTE sguard-2b__beavertails__response_harm.json  n=2  f1=0.0  parse_err=0.0
+WROTE sguard-2b__saferlhf__response_harm.json  n=2  f1=0.0  parse_err=0.0
+WROTE sguard-2b__xstest_response__response_harm.json  n=2  f1=0.0  parse_err=0.0
+WROTE sguard-2b__aegis_v2__prompt_harm.json  n=2  f1=1.0  parse_err=0.0

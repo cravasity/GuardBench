@@ -1,0 +1,204 @@
+{
+  "llamaguard-1-7b": {
+    "repo": "meta-llama/LlamaGuard-7b",
+    "ok": false,
+    "reason": "gated-manual (license not accepted)"
+  },
+  "llamaguard-2-8b": {
+    "repo": "meta-llama/Meta-Llama-Guard-2-8B",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--meta-llama--Meta-Llama-Guard-2-8B/snapshots/7d257f3c1a0ec6ed99b2cb715027149dfb9784ef",
+    "gb": 0.0
+  },
+  "llamaguard-3-1b": {
+    "repo": "meta-llama/Llama-Guard-3-1B",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--meta-llama--Llama-Guard-3-1B/snapshots/acf7aafa60f0410f8f42b1fa35e077d705892029",
+    "gb": 0.0
+  },
+  "llamaguard-3-8b": {
+    "repo": "meta-llama/Llama-Guard-3-8B",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--meta-llama--Llama-Guard-3-8B/snapshots/7327bd9f6efbbe6101dc6cc4736302b3cbb6e425",
+    "gb": 0.0
+  },
+  "llamaguard-4-12b": {
+    "repo": "meta-llama/Llama-Guard-4-12B",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--meta-llama--Llama-Guard-4-12B/snapshots/87acb4b94e930c3d679e6e7ee9d57e2feab9ea71",
+    "gb": 0.0
+  },
+  "shieldgemma-2b": {
+    "repo": "google/shieldgemma-2b",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--google--shieldgemma-2b/snapshots/d1dffc9c8c9237a90aab09c61383791e718ef9e8",
+    "gb": 0.0
+  },
+  "shieldgemma-9b": {
+    "repo": "google/shieldgemma-9b",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--google--shieldgemma-9b/snapshots/b8b636016df4540721a098c7aab91c97ec6ee508",
+    "gb": 0.0
+  },
+  "shieldgemma-27b": {
+    "repo": "google/shieldgemma-27b",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--google--shieldgemma-27b/snapshots/9123a713b79588560439bc3f208fce09e15c03ca",
+    "gb": 0.0
+  },
+  "wildguard-7b": {
+    "repo": "allenai/wildguard",
+    "ok": false,
+    "reason": "gated-auto (needs one-click accept)"
+  },
+  "qwen3guard-0.6b": {
+    "repo": "Qwen/Qwen3Guard-Gen-0.6B",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--Qwen--Qwen3Guard-Gen-0.6B/snapshots/fada3b2f655b89601929198343c94cd2f64d93cc",
+    "gb": 0.0
+  },
+  "qwen3guard-4b": {
+    "repo": "Qwen/Qwen3Guard-Gen-4B",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--Qwen--Qwen3Guard-Gen-4B/snapshots/6ec42827da0c1ff11e7a49dc269d2e810d27e108",
+    "gb": 0.0
+  },
+  "qwen3guard-8b": {
+    "repo": "Qwen/Qwen3Guard-Gen-8B",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--Qwen--Qwen3Guard-Gen-8B/snapshots/4505cb1a6f1864f21f8b27f7daf1b9a1aab6edbb",
+    "gb": 0.0
+  },
+  "granite-3.0-8b": {
+    "repo": "ibm-granite/granite-guardian-3.0-8b",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--ibm-granite--granite-guardian-3.0-8b/snapshots/81c9105958545715d412c688afb862e4b1395f56",
+    "gb": 0.0
+  },
+  "granite-3.3-8b": {
+    "repo": "ibm-granite/granite-guardian-3.3-8b",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--ibm-granite--granite-guardian-3.3-8b/snapshots/b3421eda4ba6fc9f9a71121d7e62de08827469a4",
+    "gb": 0.0
+  },
+  "granite-4.1-8b": {
+    "repo": "ibm-granite/granite-guardian-4.1-8b",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--ibm-granite--granite-guardian-4.1-8b/snapshots/ab01ccca5dcfb80246369a086a4a87a29198f5af",
+    "gb": 0.0
+  },
+  "nemotron-guard-v3": {
+    "repo": "nvidia/Llama-3.1-Nemotron-Safety-Guard-8B-v3",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--nvidia--Llama-3.1-Nemotron-Safety-Guard-8B-v3/snapshots/8fdc246ba3d56db9c469d534233b9f582d3afafa",
+    "gb": 0.0
+  },
+  "nemotron-3.5-cs": {
+    "repo": "nvidia/Nemotron-3.5-Content-Safety",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--nvidia--Nemotron-3.5-Content-Safety/snapshots/35645ed3543b7e7ffaed2e788699e57a5051497c",
+    "gb": 0.0
+  },
+  "gptoss-safeguard-20b": {
+    "repo": "openai/gpt-oss-safeguard-20b",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--openai--gpt-oss-safeguard-20b/snapshots/8a11e17b25c973a24099d4016bf2e17dd7ec1574",
+    "gb": 0.0
+  },
+  "shieldstral-3b": {
+    "repo": "mistralai/Shieldstral-1.0-3B",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--mistralai--Shieldstral-1.0-3B/snapshots/003ec7e2b0bab5f0e6307edbaf186fa5822b76f5",
+    "gb": 0.0
+  },
+  "mdjudge-v0.2-7b": {
+    "repo": "OpenSafetyLab/MD-Judge-v0_2-internlm2_7b",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--OpenSafetyLab--MD-Judge-v0_2-internlm2_7b/snapshots/f5a3fa94936328e517c1d3f1c65aa5c9fe8ed115",
+    "gb": 0.0
+  },
+  "harmbench-cls-13b": {
+    "repo": "cais/HarmBench-Llama-2-13b-cls",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--cais--HarmBench-Llama-2-13b-cls/snapshots/bda705349d1144fa618770bea64d99ce54e3835b",
+    "gb": 0.0
+  },
+  "guardreasoner-8b": {
+    "repo": "yueliu1999/GuardReasoner-8B",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--yueliu1999--GuardReasoner-8B/snapshots/f3f57a9c3e94c94dd029903b667aa144b7d7dfb8",
+    "gb": 0.0
+  },
+  "dynaguard-8b": {
+    "repo": "tomg-group-umd/DynaGuard-8B",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--tomg-group-umd--DynaGuard-8B/snapshots/8dbd7979edfc81d5b5d97352fb685c71a0e04665",
+    "gb": 0.0
+  },
+  "polyguard-qwen-7b": {
+    "repo": "ToxicityPrompts/PolyGuard-Qwen",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--ToxicityPrompts--PolyGuard-Qwen/snapshots/644bfe73ff498c9a14818b72a11187eaf23f0ff1",
+    "gb": 0.0
+  },
+  "aprielguard-8b": {
+    "repo": "ServiceNow-AI/AprielGuard",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--ServiceNow-AI--AprielGuard/snapshots/e7e936d158cf054e9f078580e432a477bfdd5436",
+    "gb": 0.0
+  },
+  "shieldlm-7b": {
+    "repo": "thu-coai/ShieldLM-7B-internlm2",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--thu-coai--ShieldLM-7B-internlm2/snapshots/92484e646d13597a560a893f6d63485793fdbece",
+    "gb": 0.0
+  },
+  "sguard-2b": {
+    "repo": "SamsungSDS-Research/SGuard-ContentFilter-2B-v1",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--SamsungSDS-Research--SGuard-ContentFilter-2B-v1/snapshots/870ae18c091f06f8f96e4119051f4cd063c83481",
+    "gb": 0.0
+  },
+  "kanana-safeguard-8b": {
+    "repo": "kakaocorp/kanana-safeguard-8b",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--kakaocorp--kanana-safeguard-8b/snapshots/2f4a68641d818caf873e21badcdc161928b0fcbf",
+    "gb": 0.0
+  },
+  "harmaug-guard": {
+    "repo": "hbseong/HarmAug-Guard",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--hbseong--HarmAug-Guard/snapshots/3f0d64323ee1cecd51e910b7409ca68c1f12edaf",
+    "gb": 0.0
+  },
+  "duoguard-0.5b": {
+    "repo": "DuoGuard/DuoGuard-0.5B",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--DuoGuard--DuoGuard-0.5B/snapshots/44396c3576fdd5f844c64615489cdbb5b3b3f3ce",
+    "gb": 0.0
+  },
+  "librai-harmful": {
+    "repo": "LibrAI/longformer-harmful-ro",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--LibrAI--longformer-harmful-ro/snapshots/dc75af6212079ccbfbb06a1705f6c458e39834f3",
+    "gb": 0.0
+  },
+  "librai-action": {
+    "repo": "LibrAI/longformer-action-ro",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--LibrAI--longformer-action-ro/snapshots/bb1f0a07dcb55ae0e9af5c5431ea8075f9a92c92",
+    "gb": 0.0
+  },
+  "granite-hap-125m": {
+    "repo": "ibm-granite/granite-guardian-hap-125m",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--ibm-granite--granite-guardian-hap-125m/snapshots/a76ccfd3ddb790fa7c23db58149bfec7ba1aa57f",
+    "gb": 0.0
+  },
+  "toxic-bert": {
+    "repo": "unitary/toxic-bert",
+    "ok": true,
+    "path": "/raid/MLP/.cache/huggingface/hub/models--unitary--toxic-bert/snapshots/4d6c22e74ba2fdd26bc4f7238f50766b045a0d94",
+    "gb": 0.0
+  }
+}

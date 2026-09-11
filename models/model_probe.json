@@ -1,0 +1,1629 @@
+[
+  {
+    "repo": "meta-llama/LlamaGuard-7b",
+    "exists": true,
+    "gated": "manual",
+    "created_at": "2023-12-05 22:29:49+00:00",
+    "last_modified": "2024-04-17 08:41:14+00:00",
+    "downloads": 2848,
+    "likes": 247,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "facebook",
+      "meta",
+      "pytorch",
+      "llama-2",
+      "conversational",
+      "en",
+      "license:llama2",
+      "text-generation-inference"
+    ],
+    "arxiv": [
+      "arxiv:2307.09288",
+      "arxiv:2312.04724"
+    ],
+    "license": "llama2",
+    "pipeline": "text-generation",
+    "downloadable": "PROBE_FAIL:GatedRepoError"
+  },
+  {
+    "repo": "meta-llama/Meta-Llama-Guard-2-8B",
+    "exists": true,
+    "gated": "manual",
+    "created_at": "2024-04-17 09:35:34+00:00",
+    "last_modified": "2024-05-13 09:36:04+00:00",
+    "downloads": 2788,
+    "likes": 312,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "facebook",
+      "meta",
+      "pytorch",
+      "llama-3",
+      "conversational",
+      "en",
+      "license:llama3",
+      "text-generation-inference"
+    ],
+    "arxiv": [
+      "arxiv:2312.06674",
+      "arxiv:2403.13031"
+    ],
+    "license": "llama3",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "meta-llama/Llama-Guard-3-8B",
+    "exists": true,
+    "gated": "manual",
+    "created_at": "2024-07-22 08:10:45+00:00",
+    "last_modified": "2024-10-11 14:52:47+00:00",
+    "downloads": 103205,
+    "likes": 317,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "facebook",
+      "meta",
+      "pytorch",
+      "llama-3",
+      "conversational",
+      "en",
+      "license:llama3.1",
+      "text-generation-inference"
+    ],
+    "arxiv": [
+      "arxiv:2407.21783",
+      "arxiv:2312.06674",
+      "arxiv:2204.05862",
+      "arxiv:2308.01263"
+    ],
+    "license": "llama3.1",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "meta-llama/Llama-Guard-3-1B",
+    "exists": true,
+    "gated": "manual",
+    "created_at": "2024-09-20 16:04:40+00:00",
+    "last_modified": "2024-09-26 21:23:14+00:00",
+    "downloads": 26375,
+    "likes": 117,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "facebook",
+      "meta",
+      "pytorch",
+      "llama-3",
+      "conversational",
+      "en",
+      "de",
+      "fr"
+    ],
+    "arxiv": [
+      "arxiv:2404.12241",
+      "arxiv:2312.06674",
+      "arxiv:2204.05862",
+      "arxiv:2308.01263",
+      "arxiv:2403.03853"
+    ],
+    "license": "llama3.2",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "meta-llama/Llama-Guard-4-12B",
+    "exists": true,
+    "gated": "manual",
+    "created_at": "2025-04-23 11:30:25+00:00",
+    "last_modified": "2025-04-29 18:14:44+00:00",
+    "downloads": 54760,
+    "likes": 121,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "llama4",
+      "image-text-to-text",
+      "facebook",
+      "meta",
+      "pytorch",
+      "llama",
+      "safety",
+      "conversational",
+      "en",
+      "license:other"
+    ],
+    "arxiv": [
+      "arxiv:2503.05731",
+      "arxiv:2407.21783"
+    ],
+    "license": "other",
+    "pipeline": "image-text-to-text",
+    "downloadable": true
+  },
+  {
+    "repo": "meta-llama/Llama-Guard-3-11B-Vision",
+    "exists": true,
+    "gated": "manual",
+    "created_at": "2024-09-20 15:42:27+00:00",
+    "last_modified": "2024-11-18 15:36:42+00:00",
+    "downloads": 1936,
+    "likes": 76,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "mllama",
+      "image-text-to-text",
+      "facebook",
+      "meta",
+      "pytorch",
+      "llama",
+      "llama-3",
+      "conversational",
+      "en",
+      "de"
+    ],
+    "arxiv": [
+      "arxiv:2312.06674",
+      "arxiv:2307.15043",
+      "arxiv:2306.15447",
+      "arxiv:2411.10414"
+    ],
+    "license": "llama3.2",
+    "pipeline": "image-text-to-text",
+    "downloadable": true
+  },
+  {
+    "repo": "meta-llama/Llama-Prompt-Guard-2-86M",
+    "exists": true,
+    "gated": "manual",
+    "created_at": "2025-04-28 07:16:35+00:00",
+    "last_modified": "2025-04-29 15:59:55+00:00",
+    "downloads": 96375,
+    "likes": 198,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "deberta-v2",
+      "text-classification",
+      "facebook",
+      "meta",
+      "pytorch",
+      "llama",
+      "llama4",
+      "safety",
+      "en",
+      "fr"
+    ],
+    "arxiv": [],
+    "license": "other",
+    "pipeline": "text-classification",
+    "downloadable": true
+  },
+  {
+    "repo": "meta-llama/Llama-Prompt-Guard-2-22M",
+    "exists": true,
+    "gated": "manual",
+    "created_at": "2025-04-28 07:15:58+00:00",
+    "last_modified": "2025-04-29 15:47:24+00:00",
+    "downloads": 11628,
+    "likes": 61,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "deberta-v2",
+      "text-classification",
+      "facebook",
+      "meta",
+      "pytorch",
+      "llama",
+      "llama4",
+      "safety",
+      "en",
+      "fr"
+    ],
+    "arxiv": [],
+    "license": "other",
+    "pipeline": "text-classification",
+    "downloadable": true
+  },
+  {
+    "repo": "google/shieldgemma-2b",
+    "exists": true,
+    "gated": "manual",
+    "created_at": "2024-07-16 20:36:52+00:00",
+    "last_modified": "2024-08-28 17:32:37+00:00",
+    "downloads": 3261,
+    "likes": 130,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "gemma2",
+      "text-generation",
+      "conversational",
+      "license:gemma",
+      "text-generation-inference",
+      "endpoints_compatible"
+    ],
+    "arxiv": [
+      "arxiv:2407.21772",
+      "arxiv:2310.17389",
+      "arxiv:2306.05685"
+    ],
+    "license": "gemma",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "google/shieldgemma-9b",
+    "exists": true,
+    "gated": "manual",
+    "created_at": "2024-07-16 20:37:09+00:00",
+    "last_modified": "2024-09-06 16:49:24+00:00",
+    "downloads": 2318,
+    "likes": 29,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "gemma2",
+      "text-generation",
+      "conversational",
+      "license:gemma",
+      "text-generation-inference",
+      "endpoints_compatible"
+    ],
+    "arxiv": [
+      "arxiv:2407.21772",
+      "arxiv:2310.17389",
+      "arxiv:2306.05685"
+    ],
+    "license": "gemma",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "google/shieldgemma-27b",
+    "exists": true,
+    "gated": "manual",
+    "created_at": "2024-07-16 20:37:35+00:00",
+    "last_modified": "2024-09-06 15:56:03+00:00",
+    "downloads": 452,
+    "likes": 29,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "gemma2",
+      "text-generation",
+      "conversational",
+      "license:gemma",
+      "text-generation-inference",
+      "endpoints_compatible"
+    ],
+    "arxiv": [
+      "arxiv:2407.21772",
+      "arxiv:2310.17389",
+      "arxiv:2306.05685"
+    ],
+    "license": "gemma",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "google/shieldgemma-2",
+    "exists": false,
+    "error": "RepositoryNotFoundError: 404 Client Error. (Request ID: Root=1-6aa0f25b-38518c6d76a95f2a2840e86a;d22b5136-4b83-4a48-901a-9f4b"
+  },
+  {
+    "repo": "allenai/wildguard",
+    "exists": true,
+    "gated": "auto",
+    "created_at": "2024-06-15 03:32:22+00:00",
+    "last_modified": "2025-07-27 17:13:05+00:00",
+    "downloads": 146427,
+    "likes": 58,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "mistral",
+      "text-generation",
+      "classifier",
+      "safety",
+      "moderation",
+      "llm",
+      "lm",
+      "en",
+      "license:apache-2.0"
+    ],
+    "arxiv": [
+      "arxiv:2406.18495"
+    ],
+    "license": "apache-2.0",
+    "pipeline": "text-generation",
+    "downloadable": "PROBE_FAIL:GatedRepoError"
+  },
+  {
+    "repo": "Qwen/Qwen3Guard-Gen-0.6B",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-09-23 11:35:17+00:00",
+    "last_modified": "2025-11-07 08:10:53+00:00",
+    "downloads": 160131,
+    "likes": 85,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "conversational",
+      "license:apache-2.0",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "deploy:azure"
+    ],
+    "arxiv": [
+      "arxiv:2510.14276"
+    ],
+    "license": "apache-2.0",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "Qwen/Qwen3Guard-Gen-4B",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-09-23 11:37:25+00:00",
+    "last_modified": "2025-11-07 08:10:44+00:00",
+    "downloads": 103456,
+    "likes": 56,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "conversational",
+      "license:apache-2.0",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "deploy:azure"
+    ],
+    "arxiv": [
+      "arxiv:2510.14276"
+    ],
+    "license": "apache-2.0",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "Qwen/Qwen3Guard-Gen-8B",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-09-23 11:40:09+00:00",
+    "last_modified": "2025-11-07 08:11:03+00:00",
+    "downloads": 48915,
+    "likes": 131,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "conversational",
+      "license:apache-2.0",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "deploy:azure"
+    ],
+    "arxiv": [
+      "arxiv:2510.14276"
+    ],
+    "license": "apache-2.0",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "Qwen/Qwen3Guard-Stream-0.6B",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-09-23 11:46:30+00:00",
+    "last_modified": "2025-11-07 07:36:26+00:00",
+    "downloads": 3237,
+    "likes": 35,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "feature-extraction",
+      "custom_code",
+      "license:apache-2.0",
+      "text-embeddings-inference",
+      "endpoints_compatible"
+    ],
+    "arxiv": [
+      "arxiv:2510.14276"
+    ],
+    "license": "apache-2.0",
+    "pipeline": "feature-extraction",
+    "downloadable": true
+  },
+  {
+    "repo": "Qwen/Qwen3Guard-Stream-4B",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-09-23 11:49:13+00:00",
+    "last_modified": "2025-11-07 07:34:37+00:00",
+    "downloads": 751,
+    "likes": 25,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "feature-extraction",
+      "custom_code",
+      "license:apache-2.0",
+      "text-embeddings-inference",
+      "endpoints_compatible"
+    ],
+    "arxiv": [
+      "arxiv:2510.14276"
+    ],
+    "license": "apache-2.0",
+    "pipeline": "feature-extraction",
+    "downloadable": true
+  },
+  {
+    "repo": "Qwen/Qwen3Guard-Stream-8B",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-09-23 11:52:50+00:00",
+    "last_modified": "2025-11-07 07:35:13+00:00",
+    "downloads": 676,
+    "likes": 38,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "feature-extraction",
+      "custom_code",
+      "license:apache-2.0",
+      "text-embeddings-inference",
+      "endpoints_compatible"
+    ],
+    "arxiv": [
+      "arxiv:2510.14276"
+    ],
+    "license": "apache-2.0",
+    "pipeline": "feature-extraction",
+    "downloadable": true
+  },
+  {
+    "repo": "ibm-granite/granite-guardian-3.0-2b",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2024-10-15 17:49:33+00:00",
+    "last_modified": "2025-01-03 22:23:14+00:00",
+    "downloads": 4066,
+    "likes": 22,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "granite",
+      "text-generation",
+      "conversational",
+      "en",
+      "license:apache-2.0",
+      "endpoints_compatible"
+    ],
+    "arxiv": [
+      "arxiv:2412.07724"
+    ],
+    "license": "apache-2.0",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "ibm-granite/granite-guardian-3.0-8b",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2024-10-15 17:49:13+00:00",
+    "last_modified": "2025-01-03 22:22:41+00:00",
+    "downloads": 515,
+    "likes": 40,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "granite",
+      "text-generation",
+      "conversational",
+      "en",
+      "license:apache-2.0",
+      "endpoints_compatible"
+    ],
+    "arxiv": [
+      "arxiv:2412.07724"
+    ],
+    "license": "apache-2.0",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "ibm-granite/granite-guardian-3.1-2b",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2024-12-17 14:30:51+00:00",
+    "last_modified": "2025-03-19 22:22:16+00:00",
+    "downloads": 5035,
+    "likes": 16,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "granite",
+      "text-generation",
+      "conversational",
+      "en",
+      "license:apache-2.0",
+      "endpoints_compatible"
+    ],
+    "arxiv": [
+      "arxiv:2412.07724"
+    ],
+    "license": "apache-2.0",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "ibm-granite/granite-guardian-3.2-5b",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-01-23 01:08:21+00:00",
+    "last_modified": "2025-09-02 18:15:31+00:00",
+    "downloads": 1955,
+    "likes": 14,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "granite",
+      "text-generation",
+      "conversational",
+      "license:apache-2.0",
+      "endpoints_compatible"
+    ],
+    "arxiv": [
+      "arxiv:2412.07724",
+      "arxiv:2306.11247"
+    ],
+    "license": "apache-2.0",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "ibm-granite/granite-guardian-3.3-8b",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-06-03 18:51:41+00:00",
+    "last_modified": "2025-09-09 03:28:32+00:00",
+    "downloads": 210674,
+    "likes": 33,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "granite",
+      "text-generation",
+      "conversational",
+      "en",
+      "license:apache-2.0",
+      "endpoints_compatible"
+    ],
+    "arxiv": [
+      "arxiv:2412.07724"
+    ],
+    "license": "apache-2.0",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "ibm-granite/granite-guardian-4.1-8b",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2026-04-16 13:58:50+00:00",
+    "last_modified": "2026-08-27 15:08:53+00:00",
+    "downloads": 32621,
+    "likes": 38,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "granite",
+      "text-generation",
+      "guardian",
+      "safety",
+      "hallucination",
+      "conversational",
+      "en",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "deploy:azure"
+    ],
+    "arxiv": [
+      "arxiv:2412.07724"
+    ],
+    "license": "apache-2.0",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "ibm-granite/granite-guardian-hap-125m",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2024-09-05 17:17:39+00:00",
+    "last_modified": "2024-12-19 19:53:49+00:00",
+    "downloads": 1815,
+    "likes": 29,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "roberta",
+      "text-classification",
+      "en",
+      "license:apache-2.0",
+      "text-embeddings-inference",
+      "endpoints_compatible",
+      "deploy:azure"
+    ],
+    "arxiv": [],
+    "license": "apache-2.0",
+    "pipeline": "text-classification",
+    "downloadable": true
+  },
+  {
+    "repo": "nvidia/llama-3.1-nemoguard-8b-content-safety",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-01-15 23:54:58+00:00",
+    "last_modified": "2025-06-09 19:46:21+00:00",
+    "downloads": 310,
+    "likes": 37,
+    "tags": [
+      "peft",
+      "safetensors",
+      "text-classification",
+      "en",
+      "license:other"
+    ],
+    "arxiv": [],
+    "license": "other",
+    "pipeline": "text-classification",
+    "downloadable": "PROBE_FAIL:EntryNotFoundError"
+  },
+  {
+    "repo": "nvidia/Llama-3.1-Nemotron-Safety-Guard-8B-v3",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-08-20 10:17:55+00:00",
+    "last_modified": "2025-10-28 18:28:23+00:00",
+    "downloads": 11114,
+    "likes": 23,
+    "tags": [
+      "safetensors",
+      "llama",
+      "content moderation",
+      "llm safety",
+      "multilingual content safety",
+      "multilingual guard model",
+      "toxicity detection",
+      "CultureGuard",
+      "Nemotron",
+      "text-generation",
+      "conversational",
+      "en"
+    ],
+    "arxiv": [
+      "arxiv:2508.01710"
+    ],
+    "license": "other",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "nvidia/Nemotron-3.5-Content-Safety",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2026-05-22 02:13:59+00:00",
+    "last_modified": "2026-06-24 16:21:37+00:00",
+    "downloads": 110991,
+    "likes": 49,
+    "tags": [
+      "safetensors",
+      "gemma3",
+      "en",
+      "ar",
+      "de",
+      "es",
+      "fr",
+      "hi",
+      "ja",
+      "th",
+      "nl",
+      "it"
+    ],
+    "arxiv": [],
+    "license": "other",
+    "pipeline": null,
+    "downloadable": true
+  },
+  {
+    "repo": "nvidia/NemoGuard-JailbreakDetect",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-01-14 15:57:15+00:00",
+    "last_modified": "2026-04-02 18:23:36+00:00",
+    "downloads": 212,
+    "likes": 26,
+    "tags": [
+      "onnx"
+    ],
+    "arxiv": [
+      "arxiv:2412.01547"
+    ],
+    "license": null,
+    "pipeline": null,
+    "downloadable": true
+  },
+  {
+    "repo": "nvidia/Aegis-AI-Content-Safety-LlamaGuard-Defensive-1.0",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2024-04-17 02:57:52+00:00",
+    "last_modified": "2025-09-22 20:46:29+00:00",
+    "downloads": 2786,
+    "likes": 34,
+    "tags": [
+      "peft",
+      "safetensors",
+      "text-classification",
+      "en",
+      "license:llama2"
+    ],
+    "arxiv": [
+      "arxiv:2307.09288",
+      "arxiv:2404.05993"
+    ],
+    "license": "llama2",
+    "pipeline": "text-classification",
+    "downloadable": "PROBE_FAIL:EntryNotFoundError"
+  },
+  {
+    "repo": "openai/gpt-oss-safeguard-20b",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-09-18 18:51:08+00:00",
+    "last_modified": "2026-01-14 18:38:05+00:00",
+    "downloads": 67365,
+    "likes": 257,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "gpt_oss",
+      "text-generation",
+      "vllm",
+      "conversational",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "8-bit",
+      "mxfp4",
+      "deploy:azure"
+    ],
+    "arxiv": [
+      "arxiv:2508.10925"
+    ],
+    "license": "apache-2.0",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "openai/gpt-oss-safeguard-120b",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-09-18 18:50:45+00:00",
+    "last_modified": "2025-10-29 11:13:59+00:00",
+    "downloads": 4222,
+    "likes": 104,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "gpt_oss",
+      "text-generation",
+      "vllm",
+      "conversational",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "8-bit",
+      "mxfp4",
+      "deploy:azure"
+    ],
+    "arxiv": [
+      "arxiv:2508.10925"
+    ],
+    "license": "apache-2.0",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "mistralai/Shieldstral-1.0-3B",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2026-07-16 10:24:13+00:00",
+    "last_modified": "2026-08-05 10:06:52+00:00",
+    "downloads": 15305,
+    "likes": 270,
+    "tags": [
+      "vllm",
+      "safetensors",
+      "mistral3",
+      "mistral-common",
+      "en",
+      "fr",
+      "es",
+      "de",
+      "it",
+      "pt",
+      "nl",
+      "zh"
+    ],
+    "arxiv": [
+      "arxiv:2607.25857"
+    ],
+    "license": "apache-2.0",
+    "pipeline": null,
+    "downloadable": true
+  },
+  {
+    "repo": "OpenSafetyLab/MD-Judge-v0_2-internlm2_7b",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2024-07-21 18:10:03+00:00",
+    "last_modified": "2025-03-08 16:08:23+00:00",
+    "downloads": 579,
+    "likes": 17,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "internlm2",
+      "feature-extraction",
+      "ai-safety",
+      "safetyguard",
+      "safety",
+      "benchmark",
+      "internlm",
+      "evaluation",
+      "judge",
+      "text-generation"
+    ],
+    "arxiv": [
+      "arxiv:2402.05044"
+    ],
+    "license": "apache-2.0",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "OpenSafetyLab/MD-Judge-v0.1",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2024-02-07 05:54:51+00:00",
+    "last_modified": "2024-05-20 12:41:59+00:00",
+    "downloads": 1433,
+    "likes": 19,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "mistral",
+      "text-generation",
+      "ai-safety",
+      "safetyguard",
+      "safety",
+      "benchmark",
+      "salad-bench",
+      "evaluation",
+      "judge",
+      "en"
+    ],
+    "arxiv": [
+      "arxiv:2402.05044"
+    ],
+    "license": "apache-2.0",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "cais/HarmBench-Llama-2-13b-cls",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2024-02-03 21:53:23+00:00",
+    "last_modified": "2024-03-17 22:44:17+00:00",
+    "downloads": 138659,
+    "likes": 32,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "license:mit",
+      "text-generation-inference",
+      "endpoints_compatible"
+    ],
+    "arxiv": [
+      "arxiv:2402.04249"
+    ],
+    "license": "mit",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "cais/HarmBench-Mistral-7b-val-cls",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2024-03-17 22:30:57+00:00",
+    "last_modified": "2024-03-17 22:43:44+00:00",
+    "downloads": 3731,
+    "likes": 7,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "mistral",
+      "text-generation",
+      "conversational",
+      "license:mit",
+      "text-generation-inference",
+      "endpoints_compatible"
+    ],
+    "arxiv": [
+      "arxiv:2402.04249"
+    ],
+    "license": "mit",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "yueliu1999/GuardReasoner-1B",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-01-31 07:04:30+00:00",
+    "last_modified": "2025-02-02 16:45:42+00:00",
+    "downloads": 248,
+    "likes": 7,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "llama-factory",
+      "full",
+      "generated_from_trainer",
+      "text-classification",
+      "en",
+      "license:other",
+      "endpoints_compatible"
+    ],
+    "arxiv": [
+      "arxiv:2501.18492"
+    ],
+    "license": "other",
+    "pipeline": "text-classification",
+    "downloadable": true
+  },
+  {
+    "repo": "yueliu1999/GuardReasoner-3B",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-01-31 06:42:31+00:00",
+    "last_modified": "2025-02-02 16:49:00+00:00",
+    "downloads": 269,
+    "likes": 4,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "llama-factory",
+      "full",
+      "generated_from_trainer",
+      "text-classification",
+      "license:other",
+      "endpoints_compatible"
+    ],
+    "arxiv": [
+      "arxiv:2501.18492"
+    ],
+    "license": "other",
+    "pipeline": "text-classification",
+    "downloadable": true
+  },
+  {
+    "repo": "yueliu1999/GuardReasoner-8B",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-01-30 17:23:31+00:00",
+    "last_modified": "2025-02-02 16:48:52+00:00",
+    "downloads": 441,
+    "likes": 6,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "llama-factory",
+      "full",
+      "generated_from_trainer",
+      "text-classification",
+      "license:apache-2.0",
+      "endpoints_compatible"
+    ],
+    "arxiv": [
+      "arxiv:2501.18492"
+    ],
+    "license": "apache-2.0",
+    "pipeline": "text-classification",
+    "downloadable": true
+  },
+  {
+    "repo": "tomg-group-umd/DynaGuard-1.7B",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-07-22 11:27:07+00:00",
+    "last_modified": "2025-09-03 15:06:02+00:00",
+    "downloads": 215,
+    "likes": 3,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "guardrail",
+      "safety",
+      "moderation",
+      "dynaguard",
+      "umd",
+      "llm",
+      "conversational",
+      "en"
+    ],
+    "arxiv": [
+      "arxiv:2509.02563"
+    ],
+    "license": "apache-2.0",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "tomg-group-umd/DynaGuard-4B",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-07-22 07:19:21+00:00",
+    "last_modified": "2025-09-03 15:05:40+00:00",
+    "downloads": 211,
+    "likes": 2,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "guardrail",
+      "safety",
+      "moderation",
+      "dynaguard",
+      "umd",
+      "llm",
+      "conversational",
+      "en"
+    ],
+    "arxiv": [
+      "arxiv:2509.02563"
+    ],
+    "license": "apache-2.0",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "tomg-group-umd/DynaGuard-8B",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-07-02 16:07:38+00:00",
+    "last_modified": "2025-09-03 15:05:17+00:00",
+    "downloads": 437,
+    "likes": 17,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "guardrail",
+      "safety",
+      "moderation",
+      "dynaguard",
+      "umd",
+      "llm",
+      "conversational",
+      "en"
+    ],
+    "arxiv": [
+      "arxiv:2509.02563"
+    ],
+    "license": "apache-2.0",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "ToxicityPrompts/PolyGuard-Qwen",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2024-12-31 13:42:21+00:00",
+    "last_modified": "2025-06-23 21:37:00+00:00",
+    "downloads": 549,
+    "likes": 3,
+    "tags": [
+      "safetensors",
+      "qwen2",
+      "text2text-generation",
+      "conversational",
+      "ar",
+      "cs",
+      "zh",
+      "nl",
+      "en",
+      "fr",
+      "de",
+      "hi"
+    ],
+    "arxiv": [
+      "arxiv:2504.04377"
+    ],
+    "license": "cc-by-4.0",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "ToxicityPrompts/PolyGuard-Ministral",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-01-09 15:58:10+00:00",
+    "last_modified": "2025-06-23 21:36:52+00:00",
+    "downloads": 191,
+    "likes": 0,
+    "tags": [
+      "safetensors",
+      "mistral",
+      "text2text-generation",
+      "conversational",
+      "ar",
+      "cs",
+      "zh",
+      "nl",
+      "en",
+      "fr",
+      "de",
+      "hi"
+    ],
+    "arxiv": [
+      "arxiv:2504.04377"
+    ],
+    "license": "cc-by-4.0",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "ToxicityPrompts/PolyGuard-Qwen-Smol",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-02-18 06:46:39+00:00",
+    "last_modified": "2025-06-23 21:36:39+00:00",
+    "downloads": 8569,
+    "likes": 6,
+    "tags": [
+      "safetensors",
+      "qwen2",
+      "text2text-generation",
+      "conversational",
+      "ar",
+      "cs",
+      "zh",
+      "nl",
+      "en",
+      "fr",
+      "de",
+      "hi"
+    ],
+    "arxiv": [
+      "arxiv:2504.04377"
+    ],
+    "license": "cc-by-4.0",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "saillab/x-guard",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-04-03 00:17:21+00:00",
+    "last_modified": "2025-04-07 01:40:55+00:00",
+    "downloads": 51,
+    "likes": 3,
+    "tags": [
+      "safetensors",
+      "qwen2",
+      "en",
+      "license:mit"
+    ],
+    "arxiv": [],
+    "license": "mit",
+    "pipeline": null,
+    "downloadable": true
+  },
+  {
+    "repo": "DuoGuard/DuoGuard-0.5B",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-02-07 02:48:32+00:00",
+    "last_modified": "2025-02-11 16:55:14+00:00",
+    "downloads": 320,
+    "likes": 4,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen2",
+      "text-classification",
+      "license:apache-2.0",
+      "endpoints_compatible"
+    ],
+    "arxiv": [
+      "arxiv:2502.05163"
+    ],
+    "license": "apache-2.0",
+    "pipeline": "text-classification",
+    "downloadable": true
+  },
+  {
+    "repo": "DuoGuard/DuoGuard-1B-Llama-3.2-transfer",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-02-07 02:38:23+00:00",
+    "last_modified": "2025-02-11 05:35:10+00:00",
+    "downloads": 26,
+    "likes": 0,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-classification",
+      "license:llama3.2",
+      "endpoints_compatible"
+    ],
+    "arxiv": [
+      "arxiv:2502.05163"
+    ],
+    "license": "llama3.2",
+    "pipeline": "text-classification",
+    "downloadable": true
+  },
+  {
+    "repo": "DuoGuard/DuoGuard-1.5B-transfer",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-02-07 02:46:41+00:00",
+    "last_modified": "2025-02-11 05:35:51+00:00",
+    "downloads": 95,
+    "likes": 1,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen2",
+      "text-classification",
+      "license:apache-2.0",
+      "endpoints_compatible"
+    ],
+    "arxiv": [
+      "arxiv:2502.05163"
+    ],
+    "license": "apache-2.0",
+    "pipeline": "text-classification",
+    "downloadable": true
+  },
+  {
+    "repo": "hbseong/HarmAug-Guard",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2024-10-11 10:49:59+00:00",
+    "last_modified": "2026-01-27 03:42:57+00:00",
+    "downloads": 199,
+    "likes": 39,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "deberta-v2",
+      "text-classification",
+      "deberta-v3",
+      "deberta",
+      "license:apache-2.0",
+      "text-embeddings-inference",
+      "endpoints_compatible"
+    ],
+    "arxiv": [
+      "arxiv:2410.01524"
+    ],
+    "license": "apache-2.0",
+    "pipeline": "text-classification",
+    "downloadable": true
+  },
+  {
+    "repo": "unitary/toxic-bert",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2022-03-02 23:29:05+00:00",
+    "last_modified": "2024-03-13 17:41:49+00:00",
+    "downloads": 133149,
+    "likes": 227,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "jax",
+      "safetensors",
+      "bert",
+      "text-classification",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "deploy:azure"
+    ],
+    "arxiv": [
+      "arxiv:1703.04009",
+      "arxiv:1905.12516"
+    ],
+    "license": "apache-2.0",
+    "pipeline": "text-classification",
+    "downloadable": true
+  },
+  {
+    "repo": "unitary/unbiased-toxic-roberta",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2022-03-02 23:29:05+00:00",
+    "last_modified": "2023-08-18 10:43:39+00:00",
+    "downloads": 106028,
+    "likes": 29,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "jax",
+      "roberta",
+      "text-classification",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "deploy:azure"
+    ],
+    "arxiv": [
+      "arxiv:1703.04009",
+      "arxiv:1905.12516"
+    ],
+    "license": "apache-2.0",
+    "pipeline": "text-classification",
+    "downloadable": true
+  },
+  {
+    "repo": "protectai/deberta-v3-base-prompt-injection-v2",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2024-04-20 16:52:22+00:00",
+    "last_modified": "2026-07-09 16:01:38+00:00",
+    "downloads": 817520,
+    "likes": 114,
+    "tags": [
+      "transformers",
+      "onnx",
+      "safetensors",
+      "deberta-v2",
+      "text-classification",
+      "prompt-injection",
+      "injection",
+      "security",
+      "llm-security",
+      "generated_from_trainer",
+      "en",
+      "license:apache-2.0"
+    ],
+    "arxiv": [],
+    "license": "apache-2.0",
+    "pipeline": "text-classification",
+    "downloadable": true
+  },
+  {
+    "repo": "ServiceNow-AI/AprielGuard",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-11-21 10:01:42+00:00",
+    "last_modified": "2026-01-27 08:44:32+00:00",
+    "downloads": 3702,
+    "likes": 20,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "mistral",
+      "text-generation",
+      "conversational",
+      "license:mit",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "deploy:azure"
+    ],
+    "arxiv": [
+      "arxiv:2512.20293",
+      "arxiv:2510.01141"
+    ],
+    "license": "mit",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "PKU-Alignment/beaver-dam-7b",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2023-07-10 02:57:51+00:00",
+    "last_modified": "2023-07-10 13:42:02+00:00",
+    "downloads": 5348,
+    "likes": 17,
+    "tags": [
+      "safe-rlhf",
+      "pytorch",
+      "llama",
+      "beaver",
+      "safety",
+      "ai-safety",
+      "deepspeed",
+      "rlhf",
+      "alpaca",
+      "en"
+    ],
+    "arxiv": [
+      "arxiv:2302.13971"
+    ],
+    "license": null,
+    "pipeline": null,
+    "downloadable": true
+  },
+  {
+    "repo": "thu-coai/ShieldLM-7B-internlm2",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2024-02-26 09:54:18+00:00",
+    "last_modified": "2024-02-27 03:34:55+00:00",
+    "downloads": 211,
+    "likes": 11,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "internlm2",
+      "feature-extraction",
+      "custom_code",
+      "en",
+      "zh",
+      "license:mit"
+    ],
+    "arxiv": [
+      "arxiv:2402.16444"
+    ],
+    "license": "mit",
+    "pipeline": "feature-extraction",
+    "downloadable": true
+  },
+  {
+    "repo": "LibrAI/longformer-harmful-ro",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2023-08-25 07:40:06+00:00",
+    "last_modified": "2023-08-25 07:57:41+00:00",
+    "downloads": 2381,
+    "likes": 2,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "longformer",
+      "text-classification",
+      "generated_from_trainer",
+      "license:apache-2.0",
+      "endpoints_compatible"
+    ],
+    "arxiv": [],
+    "license": "apache-2.0",
+    "pipeline": "text-classification",
+    "downloadable": true
+  },
+  {
+    "repo": "LibrAI/longformer-action-ro",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2023-08-24 12:33:56+00:00",
+    "last_modified": "2023-08-25 07:58:30+00:00",
+    "downloads": 428,
+    "likes": 0,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "longformer",
+      "text-classification",
+      "generated_from_trainer",
+      "license:apache-2.0",
+      "endpoints_compatible"
+    ],
+    "arxiv": [],
+    "license": "apache-2.0",
+    "pipeline": "text-classification",
+    "downloadable": true
+  },
+  {
+    "repo": "SamsungSDS-Research/SGuard-ContentFilter-2B-v1",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-11-11 06:20:31+00:00",
+    "last_modified": "2025-11-25 08:00:57+00:00",
+    "downloads": 758,
+    "likes": 13,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "granite",
+      "text-generation",
+      "samsung",
+      "safety",
+      "pytorch",
+      "unsafe",
+      "conversational",
+      "en",
+      "ko",
+      "license:apache-2.0"
+    ],
+    "arxiv": [
+      "arxiv:2511.12497"
+    ],
+    "license": "apache-2.0",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "kakaocorp/kanana-safeguard-8b",
+    "exists": true,
+    "gated": "False",
+    "created_at": "2025-05-26 12:56:56+00:00",
+    "last_modified": "2025-05-26 13:22:35+00:00",
+    "downloads": 1154,
+    "likes": 33,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "conversational",
+      "ko",
+      "license:apache-2.0",
+      "text-generation-inference",
+      "endpoints_compatible"
+    ],
+    "arxiv": [],
+    "license": "apache-2.0",
+    "pipeline": "text-generation",
+    "downloadable": true
+  },
+  {
+    "repo": "Salesforce/BingoGuard-8B",
+    "exists": false,
+    "error": "RepositoryNotFoundError: 404 Client Error. (Request ID: Root=1-6aa0f286-730c225f25d95a5b6cc876a3;9e01f491-3754-41a9-b419-8d5d"
+  },
+  {
+    "repo": "Salesforce/BingoGuard-Llama-3.2-1B",
+    "exists": false,
+    "error": "RepositoryNotFoundError: 404 Client Error. (Request ID: Root=1-6aa0f286-1308507d5399b8525a5212db;78951b24-d115-4281-96f1-b5b2"
+  }
+]

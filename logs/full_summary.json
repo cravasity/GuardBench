@@ -1,0 +1,500 @@
+{
+ "harmbench-cls-13b": {
+  "rc": 0,
+  "secs": 183.1,
+  "gpu": "3",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_harmbench-cls-13b.log",
+  "tail": "WROTE harmbench-cls-13b__wildguardtest__response_harm.json  n=1709  f1=0.4644  parse_err=0.0 | WROTE harmbench-cls-13b__harmbench__response_harm.json  n=602  f1=0.8481  parse_err=0.0 | WROTE harmbench",
+  "validation": {
+   "ok": true,
+   "n_items": 7778,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "gptoss-safeguard-20b": {
+  "rc": 2,
+  "secs": 307.6,
+  "gpu": "2",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_gptoss-safeguard-20b.log",
+  "tail": "WROTE gptoss-safeguard-20b__wildguardtest__prompt_harm.json  n=1699  f1=0.8798  parse_err=0.02 | WROTE gptoss-safeguard-20b__wildguardtest__response_harm.json  n=1709  f1=0.7189  parse_err=0.0059 | WR",
+  "validation": {
+   "ok": false,
+   "n_items": 16672,
+   "n_parse_errors": 218,
+   "missing_probabilities": 0,
+   "unparsed_calls": 218,
+   "errors": [
+    "parse failures 218/16672",
+    "unparsed calls: 218"
+   ]
+  }
+ },
+ "llamaguard-4-12b": {
+  "rc": 2,
+  "secs": 172.0,
+  "gpu": "3",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_llamaguard-4-12b.log",
+  "tail": "WROTE llamaguard-4-12b__wildguardtest__prompt_harm.json  n=1699  f1=0.7374  parse_err=0.0 | WROTE llamaguard-4-12b__wildguardtest__response_harm.json  n=1709  f1=0.6736  parse_err=0.0006 | WROTE llama",
+  "validation": {
+   "ok": false,
+   "n_items": 16672,
+   "n_parse_errors": 5,
+   "missing_probabilities": 0,
+   "unparsed_calls": 5,
+   "errors": [
+    "parse failures 5/16672",
+    "unparsed calls: 5"
+   ]
+  }
+ },
+ "granite-4.1-8b": {
+  "rc": 0,
+  "secs": 176.6,
+  "gpu": "3",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_granite-4.1-8b.log",
+  "tail": "WROTE granite-4.1-8b__wildguardtest__prompt_harm.json  n=1699  f1=0.8417  parse_err=0.0 | WROTE granite-4.1-8b__wildguardtest__response_harm.json  n=1709  f1=0.7582  parse_err=0.0 | WROTE granite-4.1-",
+  "validation": {
+   "ok": true,
+   "n_items": 16672,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "shieldgemma-27b": {
+  "rc": 0,
+  "secs": 606.1,
+  "gpu": "0,1",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_shieldgemma-27b.log",
+  "tail": "WROTE shieldgemma-27b__wildguardtest__prompt_harm.json  n=1699  f1=0.5451  parse_err=0.0 | WROTE shieldgemma-27b__wildguardtest__response_harm.json  n=1709  f1=0.5407  parse_err=0.0 | WROTE shieldgemm",
+  "validation": {
+   "ok": true,
+   "n_items": 16672,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "shieldgemma-9b": {
+  "rc": 0,
+  "secs": 385.1,
+  "gpu": "2",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_shieldgemma-9b.log",
+  "tail": "WROTE shieldgemma-9b__wildguardtest__prompt_harm.json  n=1699  f1=0.5371  parse_err=0.0 | WROTE shieldgemma-9b__wildguardtest__response_harm.json  n=1709  f1=0.5062  parse_err=0.0 | WROTE shieldgemma-",
+  "validation": {
+   "ok": true,
+   "n_items": 16672,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "granite-3.3-8b": {
+  "rc": 0,
+  "secs": 172.8,
+  "gpu": "3",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_granite-3.3-8b.log",
+  "tail": "WROTE granite-3.3-8b__wildguardtest__prompt_harm.json  n=1699  f1=0.8506  parse_err=0.0 | WROTE granite-3.3-8b__wildguardtest__response_harm.json  n=1709  f1=0.7615  parse_err=0.0 | WROTE granite-3.3-",
+  "validation": {
+   "ok": true,
+   "n_items": 16672,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "llamaguard-2-8b": {
+  "rc": 0,
+  "secs": 118.8,
+  "gpu": "1",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_llamaguard-2-8b.log",
+  "tail": "WROTE llamaguard-2-8b__wildguardtest__prompt_harm.json  n=1699  f1=0.7041  parse_err=0.0 | WROTE llamaguard-2-8b__wildguardtest__response_harm.json  n=1709  f1=0.664  parse_err=0.0 | WROTE llamaguard-",
+  "validation": {
+   "ok": true,
+   "n_items": 16672,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "granite-3.0-8b": {
+  "rc": 0,
+  "secs": 168.9,
+  "gpu": "0",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_granite-3.0-8b.log",
+  "tail": "WROTE granite-3.0-8b__wildguardtest__prompt_harm.json  n=1699  f1=0.8372  parse_err=0.0 | WROTE granite-3.0-8b__wildguardtest__response_harm.json  n=1709  f1=0.7463  parse_err=0.0 | WROTE granite-3.0-",
+  "validation": {
+   "ok": true,
+   "n_items": 16672,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "llamaguard-3-8b": {
+  "rc": 0,
+  "secs": 119.5,
+  "gpu": "2",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_llamaguard-3-8b.log",
+  "tail": "WROTE llamaguard-3-8b__wildguardtest__prompt_harm.json  n=1699  f1=0.7685  parse_err=0.0 | WROTE llamaguard-3-8b__wildguardtest__response_harm.json  n=1709  f1=0.7042  parse_err=0.0 | WROTE llamaguard",
+  "validation": {
+   "ok": true,
+   "n_items": 16672,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "nemotron-guard-v3": {
+  "rc": 2,
+  "secs": 161.8,
+  "gpu": "1",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_nemotron-guard-v3.log",
+  "tail": "WROTE nemotron-guard-v3__wildguardtest__prompt_harm.json  n=1699  f1=0.8438  parse_err=0.0 | WROTE nemotron-guard-v3__wildguardtest__response_harm.json  n=1709  f1=0.7778  parse_err=0.0012 | WROTE nem",
+  "validation": {
+   "ok": false,
+   "n_items": 16672,
+   "n_parse_errors": 2,
+   "missing_probabilities": 0,
+   "unparsed_calls": 2,
+   "errors": [
+    "parse failures 2/16672",
+    "unparsed calls: 2"
+   ]
+  }
+ },
+ "qwen3guard-8b": {
+  "rc": 0,
+  "secs": 192.4,
+  "gpu": "3",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_qwen3guard-8b.log",
+  "tail": "WROTE qwen3guard-8b__wildguardtest__prompt_harm.json  n=1699  f1=0.8972  parse_err=0.0 | WROTE qwen3guard-8b__wildguardtest__response_harm.json  n=1709  f1=0.7921  parse_err=0.0 | WROTE qwen3guard-8b_",
+  "validation": {
+   "ok": true,
+   "n_items": 18841,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "dynaguard-8b": {
+  "rc": 0,
+  "secs": 112.3,
+  "gpu": "2",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_dynaguard-8b.log",
+  "tail": "WROTE dynaguard-8b__wildguardtest__prompt_harm.json  n=1699  f1=0.7755  parse_err=0.0 | WROTE dynaguard-8b__wildguardtest__response_harm.json  n=1709  f1=0.7879  parse_err=0.0 | WROTE dynaguard-8b__to",
+  "validation": {
+   "ok": true,
+   "n_items": 16672,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "kanana-safeguard-8b": {
+  "rc": 0,
+  "secs": 96.1,
+  "gpu": "1",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_kanana-safeguard-8b.log",
+  "tail": "WROTE kanana-safeguard-8b__wildguardtest__prompt_harm.json  n=1699  f1=0.806  parse_err=0.0 | WROTE kanana-safeguard-8b__wildguardtest__response_harm.json  n=1709  f1=0.7227  parse_err=0.0 | WROTE kan",
+  "validation": {
+   "ok": true,
+   "n_items": 16672,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "shieldlm-7b": {
+  "rc": 0,
+  "secs": 110.8,
+  "gpu": "1",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_shieldlm-7b.log",
+  "tail": "WROTE shieldlm-7b__wildguardtest__response_harm.json  n=1709  f1=0.7509  parse_err=0.0 | WROTE shieldlm-7b__harmbench__response_harm.json  n=602  f1=0.859  parse_err=0.0 | WROTE shieldlm-7b__beavertai",
+  "validation": {
+   "ok": true,
+   "n_items": 7778,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "mdjudge-v0.2-7b": {
+  "rc": 2,
+  "secs": 202.9,
+  "gpu": "2",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_mdjudge-v0.2-7b.log",
+  "tail": "WROTE mdjudge-v0.2-7b__wildguardtest__response_harm.json  n=1709  f1=0.8013  parse_err=0.0006 | WROTE mdjudge-v0.2-7b__harmbench__response_harm.json  n=602  f1=0.8468  parse_err=0.0017 | WROTE mdjudge",
+  "validation": {
+   "ok": false,
+   "n_items": 7778,
+   "n_parse_errors": 2,
+   "missing_probabilities": 0,
+   "unparsed_calls": 2,
+   "errors": [
+    "parse failures 2/7778",
+    "unparsed calls: 2"
+   ]
+  }
+ },
+ "polyguard-qwen-7b": {
+  "rc": 2,
+  "secs": 133.4,
+  "gpu": "1",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_polyguard-qwen-7b.log",
+  "tail": "WROTE polyguard-qwen-7b__wildguardtest__prompt_harm.json  n=1699  f1=0.8881  parse_err=0.0012 | WROTE polyguard-qwen-7b__wildguardtest__response_harm.json  n=1709  f1=0.7845  parse_err=0.0 | WROTE pol",
+  "validation": {
+   "ok": false,
+   "n_items": 18841,
+   "n_parse_errors": 2,
+   "missing_probabilities": 0,
+   "unparsed_calls": 2,
+   "errors": [
+    "parse failures 2/18841",
+    "unparsed calls: 2"
+   ]
+  }
+ },
+ "nemotron-3.5-cs": {
+  "rc": 0,
+  "secs": 123.6,
+  "gpu": "2",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_nemotron-3.5-cs.log",
+  "tail": "WROTE nemotron-3.5-cs__wildguardtest__prompt_harm.json  n=1699  f1=0.8459  parse_err=0.0 | WROTE nemotron-3.5-cs__wildguardtest__response_harm.json  n=1709  f1=0.7761  parse_err=0.0 | WROTE nemotron-3",
+  "validation": {
+   "ok": true,
+   "n_items": 16672,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "shieldstral-3b": {
+  "rc": 0,
+  "secs": 67.4,
+  "gpu": "2",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_shieldstral-3b.log",
+  "tail": "WROTE shieldstral-3b__wildguardtest__prompt_harm.json  n=1699  f1=0.8944  parse_err=0.0 | WROTE shieldstral-3b__wildguardtest__response_harm.json  n=1709  f1=0.6772  parse_err=0.0 | WROTE shieldstral-",
+  "validation": {
+   "ok": true,
+   "n_items": 16672,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "qwen3guard-4b": {
+  "rc": 0,
+  "secs": 128.3,
+  "gpu": "1",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_qwen3guard-4b.log",
+  "tail": "WROTE qwen3guard-4b__wildguardtest__prompt_harm.json  n=1699  f1=0.8919  parse_err=0.0 | WROTE qwen3guard-4b__wildguardtest__response_harm.json  n=1709  f1=0.798  parse_err=0.0 | WROTE qwen3guard-4b__",
+  "validation": {
+   "ok": true,
+   "n_items": 18841,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "shieldgemma-2b": {
+  "rc": 0,
+  "secs": 139.7,
+  "gpu": "2",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_shieldgemma-2b.log",
+  "tail": "WROTE shieldgemma-2b__wildguardtest__prompt_harm.json  n=1699  f1=0.5381  parse_err=0.0 | WROTE shieldgemma-2b__wildguardtest__response_harm.json  n=1709  f1=0.4541  parse_err=0.0 | WROTE shieldgemma-",
+  "validation": {
+   "ok": true,
+   "n_items": 16672,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "llamaguard-3-1b": {
+  "rc": 0,
+  "secs": 42.0,
+  "gpu": "2",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_llamaguard-3-1b.log",
+  "tail": "WROTE llamaguard-3-1b__wildguardtest__prompt_harm.json  n=1699  f1=0.7524  parse_err=0.0 | WROTE llamaguard-3-1b__wildguardtest__response_harm.json  n=1709  f1=0.6593  parse_err=0.0 | WROTE llamaguard",
+  "validation": {
+   "ok": true,
+   "n_items": 16672,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "qwen3guard-0.6b": {
+  "rc": 0,
+  "secs": 70.4,
+  "gpu": "2",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_qwen3guard-0.6b.log",
+  "tail": "WROTE qwen3guard-0.6b__wildguardtest__prompt_harm.json  n=1699  f1=0.8848  parse_err=0.0 | WROTE qwen3guard-0.6b__wildguardtest__response_harm.json  n=1709  f1=0.769  parse_err=0.0 | WROTE qwen3guard-",
+  "validation": {
+   "ok": true,
+   "n_items": 18841,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "guardreasoner-8b": {
+  "rc": 2,
+  "secs": 799.3,
+  "gpu": "0",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_guardreasoner-8b.log",
+  "tail": "WROTE guardreasoner-8b__wildguardtest__prompt_harm.json  n=1699  f1=0.8961  parse_err=0.0 | WROTE guardreasoner-8b__wildguardtest__response_harm.json  n=1709  f1=0.779  parse_err=0.0 | WROTE guardreas",
+  "validation": {
+   "ok": false,
+   "n_items": 18841,
+   "n_parse_errors": 8,
+   "missing_probabilities": 0,
+   "unparsed_calls": 8,
+   "errors": [
+    "parse failures 8/18841",
+    "unparsed calls: 8"
+   ]
+  }
+ },
+ "duoguard-0.5b": {
+  "rc": 0,
+  "secs": 37.3,
+  "gpu": "2",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_duoguard-0.5b.log",
+  "tail": "WROTE duoguard-0.5b__wildguardtest__prompt_harm.json  n=1699  f1=0.7713  parse_err=0.0 | WROTE duoguard-0.5b__toxicchat__prompt_harm.json  n=2853  f1=0.7025  parse_err=0.0 | WROTE duoguard-0.5b__opena",
+  "validation": {
+   "ok": true,
+   "n_items": 16672,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "librai-harmful": {
+  "rc": 0,
+  "secs": 69.2,
+  "gpu": "2",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_librai-harmful.log",
+  "tail": "WROTE librai-harmful__wildguardtest__response_harm.json  n=1709  f1=0.3333  parse_err=0.0 | WROTE librai-harmful__harmbench__response_harm.json  n=602  f1=0.6212  parse_err=0.0 | WROTE librai-harmful_",
+  "validation": {
+   "ok": true,
+   "n_items": 7778,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "librai-action": {
+  "rc": 0,
+  "secs": 34.7,
+  "gpu": "2",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_librai-action.log",
+  "tail": "WROTE librai-action__wildguardtest__response_refusal.json  n=1720  f1=0.7005  parse_err=0.0 | WROTE librai-action__xstest_response__response_refusal.json  n=449  f1=0.7426  parse_err=0.0",
+  "validation": {
+   "ok": true,
+   "n_items": 2169,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "harmaug-guard": {
+  "rc": 0,
+  "secs": 138.0,
+  "gpu": "0",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_harmaug-guard.log",
+  "tail": "WROTE harmaug-guard__wildguardtest__prompt_harm.json  n=1699  f1=0.8761  parse_err=0.0 | WROTE harmaug-guard__toxicchat__prompt_harm.json  n=2853  f1=0.6822  parse_err=0.0 | WROTE harmaug-guard__opena",
+  "validation": {
+   "ok": true,
+   "n_items": 16672,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "granite-hap-125m": {
+  "rc": 0,
+  "secs": 38.2,
+  "gpu": "2",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_granite-hap-125m.log",
+  "tail": "WROTE granite-hap-125m__wildguardtest__prompt_harm.json  n=1699  f1=0.0157  parse_err=0.0 | WROTE granite-hap-125m__toxicchat__prompt_harm.json  n=2853  f1=0.2609  parse_err=0.0 | WROTE granite-hap-12",
+  "validation": {
+   "ok": true,
+   "n_items": 16672,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "toxic-bert": {
+  "rc": 0,
+  "secs": 39.5,
+  "gpu": "0",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_toxic-bert.log",
+  "tail": "WROTE toxic-bert__wildguardtest__prompt_harm.json  n=1699  f1=0.0026  parse_err=0.0 | WROTE toxic-bert__toxicchat__prompt_harm.json  n=2853  f1=0.2655  parse_err=0.0 | WROTE toxic-bert__openai_mod__pr",
+  "validation": {
+   "ok": true,
+   "n_items": 16672,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "aprielguard-8b": {
+  "rc": 0,
+  "secs": 988.1,
+  "gpu": "3",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_aprielguard-8b.log",
+  "tail": "WROTE aprielguard-8b__wildguardtest__prompt_harm.json  n=1699  f1=0.8758  parse_err=0.0 | WROTE aprielguard-8b__wildguardtest__response_harm.json  n=1709  f1=0.7415  parse_err=0.0 | WROTE aprielguard-",
+  "validation": {
+   "ok": true,
+   "n_items": 16672,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "sguard-2b": {
+  "rc": 0,
+  "secs": 956.2,
+  "gpu": "1",
+  "log": "/raid/MLP/hgkim/guardbench/logs/full_sguard-2b.log",
+  "tail": "WROTE sguard-2b__wildguardtest__prompt_harm.json  n=1699  f1=0.8884  parse_err=0.0 | WROTE sguard-2b__wildguardtest__response_harm.json  n=1709  f1=0.7951  parse_err=0.0 | WROTE sguard-2b__toxicchat__",
+  "validation": {
+   "ok": true,
+   "n_items": 16672,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ }
+}

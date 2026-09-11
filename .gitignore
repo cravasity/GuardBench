@@ -1,11 +1,9 @@
-# Local datasets and inference archives are not redistributed with the code.
-/data/*
-!/data/provenance.json
-/outputs/
-/models/
-/logs/*
-!/logs/environment_main.txt
-!/logs/environment_shieldstral.txt
+# Research data, outputs, logs, and model-status metadata are versioned.
+# Downloaded model weights are not.
+*.safetensors
+*.pt
+*.pth
+*.bin
 
 # Environments, downloaded reference repository, and runtime caches.
 /.venv*/
@@ -13,7 +11,6 @@
 /safety-eval/
 __pycache__/
 *.py[cod]
-*.log
 *.tmp
 .pytest_cache/
 .DS_Store

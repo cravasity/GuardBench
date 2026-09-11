@@ -1,0 +1,81 @@
+/raid/MLP/hgkim/guardbench/.venv/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files: 100%|██████████| 5/5 [00:00<00:00, 2881.49it/s]
+`torch_dtype` is deprecated! Use `dtype` instead!
+CLASSIFIED 256/16672
+CLASSIFIED 512/16672
+CLASSIFIED 768/16672
+CLASSIFIED 1024/16672
+CLASSIFIED 1280/16672
+CLASSIFIED 1536/16672
+CLASSIFIED 1792/16672
+CLASSIFIED 2048/16672
+CLASSIFIED 2304/16672
+CLASSIFIED 2560/16672
+CLASSIFIED 2816/16672
+CLASSIFIED 3072/16672
+CLASSIFIED 3328/16672
+CLASSIFIED 3584/16672
+CLASSIFIED 3840/16672
+CLASSIFIED 4096/16672
+CLASSIFIED 4352/16672
+CLASSIFIED 4608/16672
+CLASSIFIED 4864/16672
+CLASSIFIED 5120/16672
+CLASSIFIED 5376/16672
+CLASSIFIED 5632/16672
+CLASSIFIED 5888/16672
+CLASSIFIED 6144/16672
+CLASSIFIED 6400/16672
+CLASSIFIED 6656/16672
+CLASSIFIED 6912/16672
+CLASSIFIED 7168/16672
+CLASSIFIED 7424/16672
+CLASSIFIED 7680/16672
+CLASSIFIED 7936/16672
+CLASSIFIED 8192/16672
+CLASSIFIED 8448/16672
+CLASSIFIED 8704/16672
+CLASSIFIED 8974/16672
+CLASSIFIED 9230/16672
+CLASSIFIED 9486/16672
+CLASSIFIED 9742/16672
+CLASSIFIED 9998/16672
+CLASSIFIED 10254/16672
+CLASSIFIED 10510/16672
+CLASSIFIED 10766/16672
+CLASSIFIED 11022/16672
+CLASSIFIED 11278/16672
+CLASSIFIED 11534/16672
+CLASSIFIED 11790/16672
+CLASSIFIED 12046/16672
+CLASSIFIED 12302/16672
+CLASSIFIED 12558/16672
+CLASSIFIED 12814/16672
+CLASSIFIED 13070/16672
+CLASSIFIED 13326/16672
+CLASSIFIED 13582/16672
+CLASSIFIED 13838/16672
+CLASSIFIED 14094/16672
+CLASSIFIED 14350/16672
+CLASSIFIED 14606/16672
+CLASSIFIED 14862/16672
+CLASSIFIED 15118/16672
+CLASSIFIED 15374/16672
+CLASSIFIED 15630/16672
+CLASSIFIED 15886/16672
+CLASSIFIED 16142/16672
+CLASSIFIED 16398/16672
+CLASSIFIED 16654/16672
+WROTE duoguard-0.5b__wildguardtest__prompt_harm.json  n=1699  f1=0.7713  parse_err=0.0
+WROTE duoguard-0.5b__toxicchat__prompt_harm.json  n=2853  f1=0.7025  parse_err=0.0
+WROTE duoguard-0.5b__openai_mod__prompt_harm.json  n=1680  f1=0.7078  parse_err=0.0
+WROTE duoguard-0.5b__aegis_v1__prompt_harm.json  n=359  f1=0.7913  parse_err=0.0
+WROTE duoguard-0.5b__simplesafetytests__prompt_harm.json  n=100  f1=0.8506  parse_err=0.0
+WROTE duoguard-0.5b__harmbench__prompt_harm.json  n=239  f1=0.7649  parse_err=0.0
+WROTE duoguard-0.5b__aegis_v2__prompt_harm.json  n=1964  f1=0.7908  parse_err=0.0
+WROTE duoguard-0.5b__wildguardtest__response_harm.json  n=1709  f1=0.5452  parse_err=0.0
+WROTE duoguard-0.5b__harmbench__response_harm.json  n=602  f1=0.6679  parse_err=0.0
+WROTE duoguard-0.5b__beavertails__response_harm.json  n=3021  f1=0.8122  parse_err=0.0
+WROTE duoguard-0.5b__saferlhf__response_harm.json  n=2000  f1=0.6857  parse_err=0.0
+WROTE duoguard-0.5b__xstest_response__response_harm.json  n=446  f1=0.6367  parse_err=0.0

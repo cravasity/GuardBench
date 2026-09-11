@@ -1,0 +1,40 @@
+/raid/MLP/hgkim/guardbench/.venv/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+`torch_dtype` is deprecated! Use `dtype` instead!
+Initializing global attention on CLS token...
+Input ids are automatically padded to be a multiple of `config.attention_window`: 512
+CLASSIFIED 256/7778
+CLASSIFIED 512/7778
+CLASSIFIED 768/7778
+CLASSIFIED 1024/7778
+CLASSIFIED 1280/7778
+CLASSIFIED 1536/7778
+CLASSIFIED 1792/7778
+CLASSIFIED 2048/7778
+CLASSIFIED 2304/7778
+CLASSIFIED 2560/7778
+CLASSIFIED 2816/7778
+CLASSIFIED 3072/7778
+CLASSIFIED 3328/7778
+CLASSIFIED 3584/7778
+CLASSIFIED 3840/7778
+CLASSIFIED 4096/7778
+CLASSIFIED 4352/7778
+CLASSIFIED 4608/7778
+CLASSIFIED 4864/7778
+CLASSIFIED 5120/7778
+CLASSIFIED 5376/7778
+CLASSIFIED 5632/7778
+CLASSIFIED 5888/7778
+CLASSIFIED 6144/7778
+CLASSIFIED 6400/7778
+CLASSIFIED 6656/7778
+CLASSIFIED 6912/7778
+CLASSIFIED 7168/7778
+CLASSIFIED 7424/7778
+CLASSIFIED 7680/7778
+WROTE librai-harmful__wildguardtest__response_harm.json  n=1709  f1=0.3333  parse_err=0.0
+WROTE librai-harmful__harmbench__response_harm.json  n=602  f1=0.6212  parse_err=0.0
+WROTE librai-harmful__beavertails__response_harm.json  n=3021  f1=0.6708  parse_err=0.0
+WROTE librai-harmful__saferlhf__response_harm.json  n=2000  f1=0.5065  parse_err=0.0
+WROTE librai-harmful__xstest_response__response_harm.json  n=446  f1=0.4  parse_err=0.0

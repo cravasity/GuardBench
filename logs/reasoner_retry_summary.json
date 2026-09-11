@@ -1,0 +1,17 @@
+{
+ "guardreasoner-8b": {
+  "rc": 0,
+  "secs": 40.9,
+  "gpu": "4",
+  "log": "/raid/MLP/hgkim/guardbench/logs/reasoner_retry_guardreasoner-8b.log",
+  "tail": "WROTE guardreasoner-8b__wildguardtest__prompt_harm.json  n=2  f1=0.6667  parse_err=0.0 | WROTE guardreasoner-8b__wildguardtest__response_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE guardreasoner-8b_",
+  "validation": {
+   "ok": true,
+   "n_items": 28,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ }
+}

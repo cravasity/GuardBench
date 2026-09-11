@@ -43,9 +43,21 @@ SGuard uses causal decision-token pairs, not a conventional classification head.
 ## Where the data lives
 
 The GitHub repository contains code, templates, documentation, source metadata,
-and environment freezes. **It does not contain benchmark text, predictions,
-Parquet results, model weights, or credentials.** Cloning it does not download
-the evaluation data. This is not a public dataset release.
+environment freezes, canonical benchmark inputs, prediction archives, Parquet
+results, score reports, and execution logs. This is a collection snapshot, not
+the final curated benchmark. **Model weights, environments, runtime caches, and
+credentials are excluded.** Upstream data and model terms still apply.
+
+Per-model/benchmark/task scores are in
+[`outputs/model_scores/`](outputs/model_scores/). The primary CSV excludes parse
+failures and reports coverage; a separate conservative CSV uses the historical
+negative-class fallback. See its README for metric definitions.
+
+Local backup files are retained as historical artifacts, not evaluation inputs.
+In particular, `outputs/aprielguard-8b__aegis_v1__prompt_harm.json.bak` contains
+trailing data and is not valid JSON; it is preserved without modification. The
+current `.json` matches the recorded Parquet source-archive hash. Score exports
+were not regenerated as part of publishing this snapshot.
 
 The existing artifacts are on the project DGX-H100, under:
 
@@ -70,12 +82,12 @@ Weights are in the shared Hugging Face cache:
 `/raid/MLP/.cache/huggingface` (approximately 422.6 GB downloaded for this project).
 Do not delete or reorganize this shared cache.
 
-Colleagues need their own authorized access to the DGX/project directory, or an
-approved transfer of the required files. For analysis, the small Parquet file,
+For analysis, the small Parquet file,
 canonical JSONL, provenance, and audit are the starting bundle; the raw JSON
 archives are additionally needed for native-label or parsing investigations.
 Benchmark content includes harmful language. Check upstream licenses and access
-conditions before copying or redistributing it.
+conditions before copying or redistributing it. Re-running inference requires
+appropriate compute access and separately authorized model downloads.
 
 ## Code map
 
@@ -314,7 +326,7 @@ use rather than assuming the driver controls every helper's destination.
   MD-Judge 2, PolyGuard 2. Do not conceal these with fallback predictions in IRT.
 - **Repeatability:** GPT-OSS changed 689 of 16,454 previously parsed labels on a
   rerun with identical recorded prompts/settings/revision. The cause is unknown.
-  Both attempts and `logs/retry_comparison.json` are retained on the DGX.
+  Both attempts and `logs/retry_comparison.json` are retained in this snapshot.
 - **Native label/policy sensitivity:** third-class collapse, authored GPT-OSS
   policy, model-specific truncation, and category aggregation affect the response
   matrix. Guard confidence scores are not universally calibrated probabilities.

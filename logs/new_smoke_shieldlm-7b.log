@@ -1,0 +1,30 @@
+/raid/MLP/hgkim/guardbench/.venv/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+The argument `trust_remote_code` is to be used with Auto classes. It has no effect here and is ignored.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Traceback (most recent call last):
+  File "/raid/MLP/hgkim/guardbench/scripts/runner.py", line 203, in <module>
+    for p,n,f1,per in run_model(a.model, a.limit, a.benchmarks, a.outdir, a.gpu_mem, a.tp, a.max_len):
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/scripts/runner.py", line 132, in run_model
+    llm = LLM(model=snapshot, tensor_parallel_size=tp, gpu_memory_utilization=gpu_mem,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/.venv/lib/python3.12/site-packages/vllm/entrypoints/llm.py", line 297, in __init__
+    self.llm_engine = LLMEngine.from_engine_args(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/.venv/lib/python3.12/site-packages/vllm/v1/engine/llm_engine.py", line 177, in from_engine_args
+    return cls(vllm_config=vllm_config,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/.venv/lib/python3.12/site-packages/vllm/v1/engine/llm_engine.py", line 96, in __init__
+    self.tokenizer = init_tokenizer_from_configs(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/.venv/lib/python3.12/site-packages/vllm/transformers_utils/tokenizer.py", line 286, in init_tokenizer_from_configs
+    return get_tokenizer(
+           ^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/.venv/lib/python3.12/site-packages/vllm/transformers_utils/tokenizer.py", line 256, in get_tokenizer
+    tokenizer = get_cached_tokenizer(tokenizer)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/.venv/lib/python3.12/site-packages/vllm/transformers_utils/tokenizer.py", line 96, in get_cached_tokenizer
+    tokenizer_all_special_ids = tokenizer.all_special_ids
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'all_special_ids'

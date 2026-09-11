@@ -1,0 +1,324 @@
+{
+ "harmbench-cls-13b": {
+  "rc": 0,
+  "secs": 35.0,
+  "gpu": "2",
+  "log": "/raid/MLP/hgkim/guardbench/logs/smoke_harmbench-cls-13b.log",
+  "tail": "WROTE harmbench-cls-13b__wildguardtest__response_harm.json  n=2  f1=0.6667  parse_err=0.0 | WROTE harmbench-cls-13b__harmbench__response_harm.json  n=2  f1=1.0  parse_err=0.0 | WROTE harmbench-cls-13b",
+  "validation": {
+   "ok": true,
+   "n_items": 10,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "llamaguard-4-12b": {
+  "rc": 0,
+  "secs": 92.4,
+  "gpu": "3",
+  "log": "/raid/MLP/hgkim/guardbench/logs/smoke_llamaguard-4-12b.log",
+  "tail": "WROTE llamaguard-4-12b__wildguardtest__prompt_harm.json  n=2  f1=0.6667  parse_err=0.0 | WROTE llamaguard-4-12b__wildguardtest__response_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE llamaguard-4-12b_",
+  "validation": {
+   "ok": true,
+   "n_items": 24,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "granite-3.0-8b": {
+  "rc": 0,
+  "secs": 57.6,
+  "gpu": "2",
+  "log": "/raid/MLP/hgkim/guardbench/logs/smoke_granite-3.0-8b.log",
+  "tail": "WROTE granite-3.0-8b__wildguardtest__prompt_harm.json  n=2  f1=0.6667  parse_err=0.0 | WROTE granite-3.0-8b__wildguardtest__response_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE granite-3.0-8b__toxic",
+  "validation": {
+   "ok": true,
+   "n_items": 24,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "llamaguard-2-8b": {
+  "rc": 0,
+  "secs": 53.2,
+  "gpu": "3",
+  "log": "/raid/MLP/hgkim/guardbench/logs/smoke_llamaguard-2-8b.log",
+  "tail": "WROTE llamaguard-2-8b__wildguardtest__prompt_harm.json  n=2  f1=1.0  parse_err=0.0 | WROTE llamaguard-2-8b__wildguardtest__response_harm.json  n=2  f1=1.0  parse_err=0.0 | WROTE llamaguard-2-8b__toxic",
+  "validation": {
+   "ok": true,
+   "n_items": 24,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "shieldgemma-9b": {
+  "rc": 0,
+  "secs": 68.8,
+  "gpu": "2",
+  "log": "/raid/MLP/hgkim/guardbench/logs/smoke_shieldgemma-9b.log",
+  "tail": "WROTE shieldgemma-9b__wildguardtest__prompt_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE shieldgemma-9b__wildguardtest__response_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE shieldgemma-9b__toxiccha",
+  "validation": {
+   "ok": true,
+   "n_items": 24,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "shieldgemma-27b": {
+  "rc": 0,
+  "secs": 197.5,
+  "gpu": "0,1",
+  "log": "/raid/MLP/hgkim/guardbench/logs/smoke_shieldgemma-27b.log",
+  "tail": "WROTE shieldgemma-27b__wildguardtest__prompt_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE shieldgemma-27b__wildguardtest__response_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE shieldgemma-27b__toxic",
+  "validation": {
+   "ok": true,
+   "n_items": 24,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "llamaguard-3-8b": {
+  "rc": 0,
+  "secs": 45.6,
+  "gpu": "2",
+  "log": "/raid/MLP/hgkim/guardbench/logs/smoke_llamaguard-3-8b.log",
+  "tail": "WROTE llamaguard-3-8b__wildguardtest__prompt_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE llamaguard-3-8b__wildguardtest__response_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE llamaguard-3-8b__toxic",
+  "validation": {
+   "ok": true,
+   "n_items": 24,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "qwen3guard-8b": {
+  "rc": 0,
+  "secs": 65.4,
+  "gpu": "3",
+  "log": "/raid/MLP/hgkim/guardbench/logs/smoke_qwen3guard-8b.log",
+  "tail": "WROTE qwen3guard-8b__wildguardtest__prompt_harm.json  n=2  f1=0.6667  parse_err=0.0 | WROTE qwen3guard-8b__wildguardtest__response_harm.json  n=2  f1=1.0  parse_err=0.0 | WROTE qwen3guard-8b__wildguar",
+  "validation": {
+   "ok": true,
+   "n_items": 28,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "dynaguard-8b": {
+  "rc": 0,
+  "secs": 30.5,
+  "gpu": "2",
+  "log": "/raid/MLP/hgkim/guardbench/logs/smoke_dynaguard-8b.log",
+  "tail": "WROTE dynaguard-8b__wildguardtest__prompt_harm.json  n=2  f1=0.6667  parse_err=0.0 | WROTE dynaguard-8b__wildguardtest__response_harm.json  n=2  f1=1.0  parse_err=0.0 | WROTE dynaguard-8b__toxicchat__",
+  "validation": {
+   "ok": true,
+   "n_items": 24,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "nemotron-guard-v3": {
+  "rc": 0,
+  "secs": 46.9,
+  "gpu": "1",
+  "log": "/raid/MLP/hgkim/guardbench/logs/smoke_nemotron-guard-v3.log",
+  "tail": "WROTE nemotron-guard-v3__wildguardtest__prompt_harm.json  n=2  f1=0.6667  parse_err=0.0 | WROTE nemotron-guard-v3__wildguardtest__response_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE nemotron-guard-",
+  "validation": {
+   "ok": true,
+   "n_items": 24,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "guardreasoner-8b": {
+  "rc": 2,
+  "secs": 52.5,
+  "gpu": "0",
+  "log": "/raid/MLP/hgkim/guardbench/logs/smoke_guardreasoner-8b.log",
+  "tail": "WROTE guardreasoner-8b__wildguardtest__prompt_harm.json  n=2  f1=0.6667  parse_err=0.0 | WROTE guardreasoner-8b__wildguardtest__response_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE guardreasoner-8b_",
+  "validation": {
+   "ok": false,
+   "n_items": 28,
+   "n_parse_errors": 1,
+   "missing_probabilities": 12,
+   "unparsed_calls": 1,
+   "errors": [
+    "parse failures 1/28",
+    "parsed items without probabilities: 12/28",
+    "unparsed calls: 1"
+   ]
+  }
+ },
+ "kanana-safeguard-8b": {
+  "rc": 0,
+  "secs": 45.3,
+  "gpu": "3",
+  "log": "/raid/MLP/hgkim/guardbench/logs/smoke_kanana-safeguard-8b.log",
+  "tail": "WROTE kanana-safeguard-8b__wildguardtest__prompt_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE kanana-safeguard-8b__wildguardtest__response_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE kanana-safegua",
+  "validation": {
+   "ok": true,
+   "n_items": 24,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "aprielguard-8b": {
+  "rc": 0,
+  "secs": 42.3,
+  "gpu": "2",
+  "log": "/raid/MLP/hgkim/guardbench/logs/smoke_aprielguard-8b.log",
+  "tail": "WROTE aprielguard-8b__wildguardtest__prompt_harm.json  n=2  f1=0.6667  parse_err=0.0 | WROTE aprielguard-8b__wildguardtest__response_harm.json  n=2  f1=1.0  parse_err=0.0 | WROTE aprielguard-8b__toxic",
+  "validation": {
+   "ok": true,
+   "n_items": 24,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "mdjudge-v0.2-7b": {
+  "rc": 0,
+  "secs": 58.1,
+  "gpu": "1",
+  "log": "/raid/MLP/hgkim/guardbench/logs/smoke_mdjudge-v0.2-7b.log",
+  "tail": "WROTE mdjudge-v0.2-7b__wildguardtest__response_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE mdjudge-v0.2-7b__harmbench__response_harm.json  n=2  f1=1.0  parse_err=0.0 | WROTE mdjudge-v0.2-7b__beavert",
+  "validation": {
+   "ok": true,
+   "n_items": 10,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "polyguard-qwen-7b": {
+  "rc": 0,
+  "secs": 53.6,
+  "gpu": "0",
+  "log": "/raid/MLP/hgkim/guardbench/logs/smoke_polyguard-qwen-7b.log",
+  "tail": "WROTE polyguard-qwen-7b__wildguardtest__prompt_harm.json  n=2  f1=0.6667  parse_err=0.0 | WROTE polyguard-qwen-7b__wildguardtest__response_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE polyguard-qwen-",
+  "validation": {
+   "ok": true,
+   "n_items": 28,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "sguard-2b": {
+  "rc": 0,
+  "secs": 9.0,
+  "gpu": "0",
+  "log": "/raid/MLP/hgkim/guardbench/logs/smoke_sguard-2b.log",
+  "tail": "WROTE sguard-2b__wildguardtest__prompt_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE sguard-2b__wildguardtest__response_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE sguard-2b__toxicchat__prompt_harm.",
+  "validation": {
+   "ok": true,
+   "n_items": 24,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "shieldgemma-2b": {
+  "rc": 0,
+  "secs": 29.1,
+  "gpu": "1",
+  "log": "/raid/MLP/hgkim/guardbench/logs/smoke_shieldgemma-2b.log",
+  "tail": "WROTE shieldgemma-2b__wildguardtest__prompt_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE shieldgemma-2b__wildguardtest__response_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE shieldgemma-2b__toxiccha",
+  "validation": {
+   "ok": true,
+   "n_items": 24,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "qwen3guard-4b": {
+  "rc": 0,
+  "secs": 57.6,
+  "gpu": "2",
+  "log": "/raid/MLP/hgkim/guardbench/logs/smoke_qwen3guard-4b.log",
+  "tail": "WROTE qwen3guard-4b__wildguardtest__prompt_harm.json  n=2  f1=0.6667  parse_err=0.0 | WROTE qwen3guard-4b__wildguardtest__response_harm.json  n=2  f1=1.0  parse_err=0.0 | WROTE qwen3guard-4b__wildguar",
+  "validation": {
+   "ok": true,
+   "n_items": 28,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "nemotron-3.5-cs": {
+  "rc": 2,
+  "secs": 82.5,
+  "gpu": "3",
+  "log": "/raid/MLP/hgkim/guardbench/logs/smoke_nemotron-3.5-cs.log",
+  "tail": "WROTE nemotron-3.5-cs__wildguardtest__prompt_harm.json  n=2  f1=0.6667  parse_err=0.0 | WROTE nemotron-3.5-cs__wildguardtest__response_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE nemotron-3.5-cs__wi",
+  "validation": {
+   "ok": false,
+   "n_items": 28,
+   "n_parse_errors": 4,
+   "missing_probabilities": 0,
+   "unparsed_calls": 4,
+   "errors": [
+    "parse failures 4/28",
+    "unparsed calls: 4"
+   ]
+  }
+ },
+ "llamaguard-3-1b": {
+  "rc": 0,
+  "secs": 31.3,
+  "gpu": "0",
+  "log": "/raid/MLP/hgkim/guardbench/logs/smoke_llamaguard-3-1b.log",
+  "tail": "WROTE llamaguard-3-1b__wildguardtest__prompt_harm.json  n=2  f1=1.0  parse_err=0.0 | WROTE llamaguard-3-1b__wildguardtest__response_harm.json  n=2  f1=1.0  parse_err=0.0 | WROTE llamaguard-3-1b__toxic",
+  "validation": {
+   "ok": true,
+   "n_items": 24,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ },
+ "qwen3guard-0.6b": {
+  "rc": 0,
+  "secs": 44.2,
+  "gpu": "1",
+  "log": "/raid/MLP/hgkim/guardbench/logs/smoke_qwen3guard-0.6b.log",
+  "tail": "WROTE qwen3guard-0.6b__wildguardtest__prompt_harm.json  n=2  f1=0.6667  parse_err=0.0 | WROTE qwen3guard-0.6b__wildguardtest__response_harm.json  n=2  f1=1.0  parse_err=0.0 | WROTE qwen3guard-0.6b__wi",
+  "validation": {
+   "ok": true,
+   "n_items": 28,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ }
+}

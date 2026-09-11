@@ -1,0 +1,17 @@
+{
+ "shieldgemma-2b": {
+  "rc": 0,
+  "secs": 216.7,
+  "gpu": "0",
+  "log": "/raid/MLP/hgkim/guardbench/logs/shield2_shieldgemma-2b.log",
+  "tail": "WROTE shieldgemma-2b__wildguardtest__prompt_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE shieldgemma-2b__wildguardtest__response_harm.json  n=2  f1=0.0  parse_err=0.0 | WROTE shieldgemma-2b__toxiccha",
+  "validation": {
+   "ok": true,
+   "n_items": 24,
+   "n_parse_errors": 0,
+   "missing_probabilities": 0,
+   "unparsed_calls": 0,
+   "errors": []
+  }
+ }
+}

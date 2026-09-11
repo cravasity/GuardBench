@@ -1,0 +1,64 @@
+Traceback (most recent call last):
+  File "/raid/MLP/hgkim/guardbench/.venv-shieldstral/lib/python3.12/site-packages/vllm/multimodal/processing/context.py", line 270, in call_hf_processor
+    output = hf_processor(**data, **allowed_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/.venv-shieldstral/lib/python3.12/site-packages/transformers/models/pixtral/processing_pixtral.py", line 175, in __call__
+    self._check_special_mm_tokens(prompt_strings, text_inputs, modalities=["image"])
+  File "/raid/MLP/hgkim/guardbench/.venv-shieldstral/lib/python3.12/site-packages/transformers/processing_utils.py", line 2323, in _check_special_mm_tokens
+    raise ValueError(
+ValueError: Mismatch in `image` token count between text and `input_ids`. Got ids=[0] and text=[1]. Likely due to `truncation='max_length'`. Please disable truncation or increase `max_length`.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/raid/MLP/hgkim/guardbench/scripts/runner.py", line 207, in <module>
+    for p,n,f1,per in run_model(a.model, a.limit, a.benchmarks, a.outdir, a.gpu_mem, a.tp, a.max_len):
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/scripts/runner.py", line 134, in run_model
+    llm = LLM(model=snapshot, tensor_parallel_size=tp, gpu_memory_utilization=gpu_mem,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/.venv-shieldstral/lib/python3.12/site-packages/vllm/entrypoints/llm.py", line 338, in __init__
+    self.llm_engine = LLMEngine.from_engine_args(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/.venv-shieldstral/lib/python3.12/site-packages/vllm/v1/engine/llm_engine.py", line 179, in from_engine_args
+    return cls(
+           ^^^^
+  File "/raid/MLP/hgkim/guardbench/.venv-shieldstral/lib/python3.12/site-packages/vllm/v1/engine/llm_engine.py", line 94, in __init__
+    self.input_processor = InputProcessor(self.vllm_config, renderer)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/.venv-shieldstral/lib/python3.12/site-packages/vllm/v1/engine/input_processor.py", line 62, in __init__
+    mm_budget = MultiModalBudget(vllm_config, mm_registry)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/.venv-shieldstral/lib/python3.12/site-packages/vllm/multimodal/encoder_budget.py", line 87, in __init__
+    all_mm_max_toks_per_item = get_mm_max_toks_per_item(
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/.venv-shieldstral/lib/python3.12/site-packages/vllm/multimodal/encoder_budget.py", line 32, in get_mm_max_toks_per_item
+    mm_inputs = mm_registry.get_dummy_mm_inputs(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/.venv-shieldstral/lib/python3.12/site-packages/vllm/multimodal/registry.py", line 256, in get_dummy_mm_inputs
+    mm_inputs = processor.apply(
+                ^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/.venv-shieldstral/lib/python3.12/site-packages/vllm/multimodal/processing/processor.py", line 1685, in apply
+    ) = self._cached_apply_hf_processor(inputs, timing_ctx)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/.venv-shieldstral/lib/python3.12/site-packages/vllm/multimodal/processing/processor.py", line 1474, in _cached_apply_hf_processor
+    ) = self._apply_hf_processor_main(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/.venv-shieldstral/lib/python3.12/site-packages/vllm/multimodal/processing/processor.py", line 1287, in _apply_hf_processor_main
+    prompt_ids = self._apply_hf_processor_text_only(prompt, tokenization_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/.venv-shieldstral/lib/python3.12/site-packages/vllm/multimodal/processing/processor.py", line 1188, in _apply_hf_processor_text_only
+    prompt_ids, _, _ = self._apply_hf_processor_text_mm(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/.venv-shieldstral/lib/python3.12/site-packages/vllm/multimodal/processing/processor.py", line 1153, in _apply_hf_processor_text_mm
+    processed_data = self._call_hf_processor(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/.venv-shieldstral/lib/python3.12/site-packages/vllm/model_executor/models/mistral3.py", line 243, in _call_hf_processor
+    processed_outputs = super()._call_hf_processor(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/.venv-shieldstral/lib/python3.12/site-packages/vllm/multimodal/processing/processor.py", line 1110, in _call_hf_processor
+    return self.info.ctx.call_hf_processor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/MLP/hgkim/guardbench/.venv-shieldstral/lib/python3.12/site-packages/vllm/multimodal/processing/context.py", line 277, in call_hf_processor
+    raise ValueError(msg) from exc
+ValueError: Failed to apply PixtralProcessor on data={'text': '[IMG]'} with kwargs={'truncation': False, 'return_tensors': 'pt'}
